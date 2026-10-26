@@ -1,0 +1,1001 @@
+PatientID,Age,Gender,BMI,BMICategory,BloodPressure,Cholesterol,Glucose,Smoking,Alcohol,ExerciseLevel,Fatigue,ChestPain,Dizziness,Disease,HighRisk,AgeGroup
+P0001,63,Female,26.1,Overweight,141,199,115,No,None,Low,Yes,No,No,Stroke,Yes,60+
+P0002,39,Female,25.8,Overweight,127,179,92,No,None,High,No,No,No,None,No,30-44
+P0003,21,Male,23,Normal,109,152,83,No,Moderate,Moderate,No,Yes,No,None,Yes,<30
+P0004,72,Male,29.9,Overweight,157,214,124,Yes,None,Low,No,Yes,No,Heart disease,Yes,60+
+P0005,27,Female,29,Overweight,127,181,92,No,None,Moderate,Yes,No,Yes,Diabetes,Yes,<30
+P0006,66,Female,30.4,Obese,150,206,109,Yes,Moderate,Moderate,Yes,Yes,Yes,None,Yes,60+
+P0007,62,Female,35.5,Obese,146,196,124,No,None,Moderate,Yes,No,No,Heart disease,Yes,60+
+P0008,45,Female,34,Obese,142,210,122,No,Moderate,Low,Yes,No,Yes,Stroke,Yes,45-59
+P0009,40,Male,24.5,Normal,133,196,106,Yes,None,Moderate,No,No,No,None,No,30-44
+P0010,85,Male,26.7,Overweight,141,223,124,No,Heavy,Low,No,Yes,No,Heart disease,Yes,60+
+P0011,85,Female,27.6,Overweight,154,201,115,No,None,High,No,No,No,None,Yes,60+
+P0012,75,Female,32.1,Obese,143,205,126,No,Moderate,Low,No,No,No,Heart disease,Yes,60+
+P0013,27,Male,24,Normal,123,160,94,No,Moderate,Moderate,No,No,No,None,No,<30
+P0014,83,Female,32.7,Obese,143,206,135,No,Moderate,Low,No,No,No,None,Yes,60+
+P0015,45,Female,34.1,Obese,132,212,129,No,Heavy,Low,No,No,No,None,No,45-59
+P0016,41,Male,32.5,Obese,126,200,105,No,Heavy,Moderate,No,No,No,None,No,30-44
+P0017,72,Male,34.7,Obese,155,245,122,No,Heavy,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0018,66,Female,34.5,Obese,139,212,134,No,Moderate,Moderate,Yes,No,Yes,Diabetes,Yes,60+
+P0019,21,Female,25,Overweight,132,167,97,Yes,None,Low,No,No,No,None,No,<30
+P0020,42,Male,26.7,Overweight,138,197,115,Yes,Heavy,Moderate,No,No,No,Heart disease,Yes,30-44
+P0021,80,Male,36.6,Obese,151,235,135,Yes,None,Moderate,No,No,Yes,Stroke,Yes,60+
+P0022,81,Male,26.4,Overweight,149,213,129,No,Moderate,Low,Yes,No,No,Diabetes,Yes,60+
+P0023,59,Female,32.3,Obese,144,218,117,Yes,None,High,No,Yes,No,Heart disease,Yes,45-59
+P0024,30,Male,23.3,Normal,114,177,96,No,None,Moderate,No,No,No,None,No,30-44
+P0025,47,Female,32.8,Obese,133,201,127,No,Moderate,Moderate,Yes,No,No,Stroke,Yes,45-59
+P0026,73,Male,29.2,Overweight,153,210,132,No,Moderate,Moderate,Yes,Yes,Yes,Heart disease,Yes,60+
+P0027,56,Female,24.1,Normal,132,198,115,No,None,Low,Yes,No,No,Heart disease,Yes,45-59
+P0028,79,Male,31.9,Obese,159,236,138,Yes,Heavy,High,Yes,Yes,Yes,Diabetes,Yes,60+
+P0029,79,Male,36.9,Obese,145,219,128,No,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0030,80,Male,35.9,Obese,158,216,147,No,Moderate,Low,Yes,No,Yes,Heart disease,Yes,60+
+P0031,54,Male,30.2,Obese,144,208,112,No,Heavy,Moderate,No,No,No,None,Yes,45-59
+P0032,73,Male,26.5,Overweight,135,228,130,No,Heavy,High,No,No,No,None,No,60+
+P0033,31,Female,31.9,Obese,135,170,115,No,Moderate,High,No,No,Yes,Stroke,Yes,30-44
+P0034,84,Female,36.9,Obese,156,246,145,No,Heavy,Low,Yes,No,Yes,Heart disease,Yes,60+
+P0035,28,Female,26.4,Overweight,117,205,96,No,Heavy,Moderate,No,Yes,No,None,Yes,<30
+P0036,77,Male,36.3,Obese,149,231,155,No,None,Low,No,Yes,No,Heart disease,Yes,60+
+P0037,71,Male,28.2,Overweight,144,206,127,No,None,Moderate,No,No,No,Diabetes,Yes,60+
+P0038,27,Female,23,Normal,117,176,82,No,Moderate,Moderate,No,No,No,None,No,<30
+P0039,83,Female,29.6,Overweight,141,206,139,No,None,Moderate,No,No,No,Diabetes,Yes,60+
+P0040,79,Female,35.8,Obese,163,235,136,Yes,None,Low,No,Yes,No,Heart disease,Yes,60+
+P0041,50,Male,25.4,Overweight,131,184,110,No,None,Moderate,Yes,Yes,Yes,Heart disease,Yes,45-59
+P0042,26,Female,24.3,Normal,134,157,90,Yes,Moderate,Moderate,No,Yes,No,Diabetes,Yes,<30
+P0043,56,Male,34.4,Obese,148,215,112,No,None,Moderate,No,Yes,No,Heart disease,Yes,45-59
+P0044,36,Female,24.3,Normal,126,176,86,No,None,Moderate,No,No,No,None,No,30-44
+P0045,42,Female,29,Overweight,139,191,127,Yes,Heavy,Low,No,No,No,None,No,30-44
+P0046,59,Male,26.4,Overweight,151,200,111,Yes,None,Low,No,Yes,No,None,Yes,45-59
+P0047,32,Female,30.8,Obese,136,182,107,No,None,Low,No,Yes,No,None,Yes,30-44
+P0048,65,Male,24.9,Normal,136,212,101,No,None,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0049,51,Male,35.2,Obese,145,188,110,No,Moderate,Moderate,Yes,Yes,No,Heart disease,Yes,45-59
+P0050,39,Male,31.7,Obese,120,200,110,No,None,High,No,No,No,Heart disease,Yes,30-44
+P0051,31,Male,33.6,Obese,135,192,112,Yes,None,Moderate,No,No,No,Heart disease,Yes,30-44
+P0052,68,Female,26.4,Overweight,148,204,113,No,Moderate,Moderate,Yes,No,No,Stroke,Yes,60+
+P0053,47,Female,30.4,Obese,133,181,110,No,Moderate,Moderate,Yes,No,No,Heart disease,Yes,45-59
+P0054,79,Male,37.8,Obese,152,222,138,No,Moderate,Low,No,No,No,None,Yes,60+
+P0055,83,Male,26.8,Overweight,147,214,113,No,None,High,Yes,No,No,Diabetes,Yes,60+
+P0056,27,Female,29.6,Overweight,128,185,116,No,None,Low,No,No,No,None,No,<30
+P0057,80,Female,31.4,Obese,139,205,128,No,None,High,Yes,No,No,Stroke,Yes,60+
+P0058,39,Female,26.4,Overweight,135,185,92,No,Moderate,High,No,No,No,Heart disease,Yes,30-44
+P0059,68,Female,36.2,Obese,139,209,140,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0060,36,Male,24.3,Normal,127,166,102,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0061,63,Male,27.5,Overweight,140,201,105,No,None,Moderate,No,No,No,None,Yes,60+
+P0062,53,Male,31.8,Obese,131,208,129,No,Heavy,Low,Yes,Yes,No,Heart disease,Yes,45-59
+P0063,28,Female,28.9,Overweight,129,187,108,Yes,Heavy,Moderate,Yes,Yes,Yes,Stroke,Yes,<30
+P0064,41,Female,31.3,Obese,140,196,100,Yes,Moderate,High,Yes,Yes,No,Heart disease,Yes,30-44
+P0065,28,Male,23.7,Normal,126,179,93,Yes,None,High,No,Yes,No,None,Yes,<30
+P0066,62,Male,32.4,Obese,139,214,133,No,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0067,46,Male,31.4,Obese,147,208,119,Yes,Heavy,Low,Yes,No,No,Stroke,Yes,45-59
+P0068,34,Male,28,Overweight,118,192,98,No,Moderate,High,Yes,No,Yes,None,No,30-44
+P0069,75,Male,32.6,Obese,150,201,127,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0070,70,Female,30.9,Obese,152,202,120,No,None,Moderate,No,Yes,No,None,Yes,60+
+P0071,73,Female,32.4,Obese,157,222,123,Yes,None,Moderate,No,Yes,Yes,None,Yes,60+
+P0072,58,Female,34.9,Obese,139,218,112,No,None,Moderate,No,No,No,None,No,45-59
+P0073,53,Male,33.8,Obese,131,216,136,No,None,Low,Yes,No,No,Diabetes,Yes,45-59
+P0074,47,Male,33.9,Obese,129,209,127,No,None,Moderate,Yes,No,No,Stroke,Yes,45-59
+P0075,79,Male,33.9,Obese,140,218,133,No,None,Low,No,No,No,Heart disease,Yes,60+
+P0076,60,Female,26.8,Overweight,136,200,124,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0077,73,Male,34.8,Obese,157,210,129,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0078,32,Female,22.3,Normal,123,171,103,No,Moderate,High,No,No,Yes,None,No,30-44
+P0079,77,Female,28.2,Overweight,139,220,120,No,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0080,49,Male,30.5,Obese,141,203,107,No,Moderate,High,No,No,No,Heart disease,Yes,45-59
+P0081,23,Male,23.2,Normal,117,175,102,No,Moderate,Low,Yes,No,No,None,No,<30
+P0082,61,Male,26.7,Overweight,142,190,122,No,None,Low,No,No,No,None,Yes,60+
+P0083,72,Female,28,Overweight,138,216,123,No,Heavy,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0084,57,Male,32.3,Obese,144,215,113,No,Heavy,Moderate,No,Yes,No,Heart disease,Yes,45-59
+P0085,32,Male,30.2,Obese,119,174,109,No,None,Low,No,No,Yes,None,No,30-44
+P0086,46,Female,34.4,Obese,140,207,124,Yes,None,Moderate,No,No,No,None,Yes,45-59
+P0087,40,Male,24,Normal,119,192,97,No,None,Moderate,No,No,No,None,No,30-44
+P0088,41,Female,24.4,Normal,132,192,99,No,Moderate,Low,No,No,No,None,No,30-44
+P0089,20,Female,22.9,Normal,124,157,109,No,None,Low,Yes,No,No,None,No,<30
+P0090,77,Male,27.9,Overweight,136,203,125,No,Moderate,Low,No,No,No,None,No,60+
+P0091,44,Male,23.2,Normal,123,179,102,No,None,Moderate,No,Yes,No,None,Yes,30-44
+P0092,51,Female,35.3,Obese,139,199,116,No,None,High,No,Yes,No,Heart disease,Yes,45-59
+P0093,29,Female,27.5,Overweight,132,190,104,No,None,Moderate,No,No,No,None,No,<30
+P0094,54,Female,34.3,Obese,149,200,129,No,Moderate,Moderate,Yes,No,No,Heart disease,Yes,45-59
+P0095,66,Male,33.3,Obese,144,212,134,Yes,Moderate,Low,No,No,No,Heart disease,Yes,60+
+P0096,38,Female,27.7,Overweight,130,180,102,No,Moderate,Moderate,No,Yes,No,Diabetes,Yes,30-44
+P0097,33,Female,26.8,Overweight,134,175,115,No,None,Low,Yes,No,No,None,No,30-44
+P0098,79,Male,28.7,Overweight,154,220,116,Yes,None,High,No,Yes,No,None,Yes,60+
+P0099,53,Female,28.6,Overweight,126,190,112,No,Moderate,Low,Yes,No,No,None,No,45-59
+P0100,65,Male,31.6,Obese,134,201,141,No,None,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0101,58,Female,32,Obese,143,212,124,Yes,None,Moderate,No,No,No,None,Yes,45-59
+P0102,22,Male,23.2,Normal,106,152,92,No,Moderate,Low,Yes,No,No,None,No,<30
+P0103,71,Male,36.5,Obese,157,228,144,No,None,Low,No,Yes,No,Diabetes,Yes,60+
+P0104,71,Male,29.2,Overweight,135,235,113,No,Heavy,Moderate,Yes,Yes,No,Diabetes,Yes,60+
+P0105,24,Female,33.1,Obese,125,175,107,No,Moderate,Moderate,No,Yes,No,None,Yes,<30
+P0106,67,Male,28.2,Overweight,146,229,112,No,Heavy,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0107,57,Female,35.8,Obese,145,211,116,No,None,High,No,No,No,Diabetes,Yes,45-59
+P0108,31,Female,27.4,Overweight,141,171,108,Yes,None,Moderate,No,No,No,None,Yes,30-44
+P0109,64,Female,32.8,Obese,134,220,144,No,None,Low,Yes,No,No,Heart disease,Yes,60+
+P0110,24,Female,22,Normal,112,154,82,No,None,Moderate,No,No,No,None,No,<30
+P0111,34,Female,29,Overweight,117,205,103,No,Heavy,Low,No,No,No,None,No,30-44
+P0112,60,Female,36,Obese,137,209,133,No,None,Low,Yes,No,No,Stroke,Yes,60+
+P0113,35,Female,28.8,Overweight,132,195,102,No,Heavy,Low,No,No,No,None,No,30-44
+P0114,19,Male,23.8,Normal,118,184,104,Yes,Heavy,Low,Yes,Yes,No,None,Yes,<30
+P0115,37,Male,25.4,Overweight,123,174,99,No,Moderate,Low,Yes,No,No,None,No,30-44
+P0116,62,Male,36.3,Obese,136,200,117,No,None,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0117,27,Female,33.1,Obese,124,197,94,No,None,Moderate,No,No,No,None,No,<30
+P0118,18,Male,32.1,Obese,117,175,108,No,None,Low,No,No,No,None,No,<30
+P0119,51,Male,33,Obese,146,185,110,Yes,Moderate,High,Yes,No,No,Diabetes,Yes,45-59
+P0120,71,Female,31.1,Obese,143,202,128,No,Moderate,High,Yes,No,No,Diabetes,Yes,60+
+P0121,35,Female,24.1,Normal,119,169,117,No,None,Low,Yes,No,No,None,No,30-44
+P0122,32,Male,23.1,Normal,117,174,86,No,None,Moderate,Yes,No,No,Diabetes,Yes,30-44
+P0123,74,Male,33,Obese,139,214,134,No,Moderate,Moderate,No,No,No,Diabetes,Yes,60+
+P0124,20,Female,26.3,Overweight,124,161,104,No,Moderate,Low,Yes,No,No,None,No,<30
+P0125,63,Male,32,Obese,158,209,132,Yes,Heavy,Low,No,Yes,No,Diabetes,Yes,60+
+P0126,63,Male,35.5,Obese,140,200,138,No,None,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0127,67,Male,36.2,Obese,137,232,140,No,Heavy,Moderate,No,No,No,Heart disease,Yes,60+
+P0128,69,Male,26,Overweight,145,215,119,No,Moderate,High,Yes,Yes,No,Heart disease,Yes,60+
+P0129,82,Male,36.2,Obese,165,232,135,Yes,Moderate,Moderate,No,No,No,None,Yes,60+
+P0130,26,Female,25,Overweight,126,172,101,No,None,Low,Yes,No,No,None,No,<30
+P0131,34,Male,26.4,Overweight,125,167,100,Yes,Moderate,Moderate,No,No,No,None,No,30-44
+P0132,37,Male,32.3,Obese,126,202,114,No,Moderate,High,No,No,No,None,No,30-44
+P0133,34,Female,26,Overweight,117,170,94,No,Moderate,High,No,No,No,None,No,30-44
+P0134,54,Female,31.2,Obese,127,208,124,No,None,Moderate,No,No,No,None,No,45-59
+P0135,28,Male,27.8,Overweight,118,167,95,No,Moderate,Moderate,No,Yes,No,None,Yes,<30
+P0136,18,Male,25.8,Overweight,108,165,88,No,Moderate,Moderate,No,No,No,None,No,<30
+P0137,25,Male,32.2,Obese,124,181,106,No,None,Moderate,No,No,No,None,No,<30
+P0138,63,Male,36.3,Obese,154,218,129,Yes,None,High,Yes,No,Yes,Diabetes,Yes,60+
+P0139,36,Female,31.9,Obese,128,187,121,No,None,Low,No,No,No,None,No,30-44
+P0140,28,Male,24.5,Normal,114,172,99,No,None,Moderate,No,No,Yes,None,No,<30
+P0141,53,Male,30.6,Obese,139,191,111,No,None,Moderate,No,No,No,Diabetes,Yes,45-59
+P0142,56,Female,34.3,Obese,143,206,126,Yes,None,Moderate,No,Yes,No,Heart disease,Yes,45-59
+P0143,67,Male,31.5,Obese,143,221,137,No,Heavy,Low,No,Yes,No,None,Yes,60+
+P0144,72,Female,28.7,Overweight,144,197,112,No,None,Moderate,No,No,No,None,Yes,60+
+P0145,69,Male,30.9,Obese,143,195,140,No,Moderate,Low,No,No,No,Heart disease,Yes,60+
+P0146,46,Female,30.2,Obese,123,188,120,No,None,High,No,No,No,None,No,45-59
+P0147,20,Male,23.2,Normal,122,161,89,No,Moderate,High,No,No,No,None,No,<30
+P0148,75,Male,26.7,Overweight,160,210,108,Yes,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0149,66,Male,27.5,Overweight,129,206,115,No,None,Low,No,No,No,None,No,60+
+P0150,75,Male,27.8,Overweight,137,197,111,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0151,69,Male,29.3,Overweight,140,201,113,No,None,Moderate,Yes,No,No,Heart disease,Yes,60+
+P0152,68,Male,34.2,Obese,153,225,142,No,Moderate,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0153,80,Female,30.2,Obese,138,209,126,No,None,High,Yes,Yes,No,Heart disease,Yes,60+
+P0154,35,Male,22.6,Normal,114,169,114,No,Moderate,Low,No,No,No,None,No,30-44
+P0155,21,Male,31.1,Obese,136,202,105,Yes,Heavy,High,No,No,No,None,No,<30
+P0156,29,Male,24.4,Normal,125,186,105,No,Moderate,Moderate,No,Yes,No,None,Yes,<30
+P0157,40,Female,24.2,Normal,130,170,119,Yes,Moderate,Low,No,Yes,No,Heart disease,Yes,30-44
+P0158,36,Female,31.7,Obese,121,191,128,No,None,Low,Yes,No,No,None,No,30-44
+P0159,71,Male,25.9,Overweight,139,207,120,Yes,Moderate,High,No,No,No,Stroke,Yes,60+
+P0160,79,Female,37.5,Obese,162,219,132,No,Moderate,High,Yes,No,No,Diabetes,Yes,60+
+P0161,73,Male,33.2,Obese,145,226,133,No,Moderate,Low,Yes,No,No,None,Yes,60+
+P0162,54,Female,32.4,Obese,145,202,120,No,None,Low,No,No,No,None,Yes,45-59
+P0163,41,Male,27.7,Overweight,132,198,95,No,None,High,No,No,No,Diabetes,Yes,30-44
+P0164,67,Female,35.5,Obese,144,207,122,No,None,High,No,No,Yes,Diabetes,Yes,60+
+P0165,27,Male,25.3,Overweight,126,180,99,No,None,High,No,No,No,None,No,<30
+P0166,30,Female,26.6,Overweight,121,170,92,No,None,High,No,No,No,None,No,30-44
+P0167,71,Female,32,Obese,161,226,133,Yes,None,High,No,Yes,Yes,Heart disease,Yes,60+
+P0168,81,Female,31.5,Obese,166,221,135,Yes,None,Moderate,No,No,No,Heart disease,Yes,60+
+P0169,75,Female,34.5,Obese,141,236,124,No,Heavy,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0170,66,Male,34.8,Obese,154,219,137,No,Heavy,High,No,Yes,Yes,Heart disease,Yes,60+
+P0171,36,Male,32.8,Obese,134,210,120,Yes,Heavy,Moderate,Yes,No,Yes,Stroke,Yes,30-44
+P0172,85,Female,31.1,Obese,150,229,146,No,Moderate,Low,No,Yes,No,Heart disease,Yes,60+
+P0173,26,Male,23,Normal,120,176,86,No,None,High,No,No,No,None,No,<30
+P0174,52,Female,35.6,Obese,139,208,129,No,None,Moderate,No,No,Yes,Stroke,Yes,45-59
+P0175,56,Male,28.7,Overweight,142,201,124,No,None,Low,No,No,No,Diabetes,Yes,45-59
+P0176,40,Female,29.9,Overweight,132,178,114,No,Moderate,Moderate,No,No,Yes,Heart disease,Yes,30-44
+P0177,29,Male,29.6,Overweight,131,194,107,No,None,Low,No,No,No,None,No,<30
+P0178,63,Female,24.7,Normal,143,198,105,No,Moderate,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0179,31,Male,33.9,Obese,132,182,119,No,Moderate,Moderate,No,No,No,Diabetes,Yes,30-44
+P0180,39,Female,29.5,Overweight,136,193,128,No,None,Low,Yes,No,No,Diabetes,Yes,30-44
+P0181,45,Female,29.9,Overweight,125,188,99,No,Moderate,Moderate,Yes,No,Yes,Stroke,Yes,45-59
+P0182,67,Female,33.4,Obese,150,210,125,No,None,Low,No,No,No,None,Yes,60+
+P0183,72,Female,26.6,Overweight,151,193,111,No,None,High,No,Yes,Yes,Stroke,Yes,60+
+P0184,46,Male,33.9,Obese,134,184,117,No,Moderate,Moderate,Yes,No,No,None,No,45-59
+P0185,29,Male,33.8,Obese,130,193,114,No,None,Moderate,No,No,No,None,No,<30
+P0186,31,Male,25.2,Overweight,126,182,98,No,None,High,No,No,No,None,No,30-44
+P0187,42,Male,31.1,Obese,141,204,123,No,None,Low,Yes,No,No,Heart disease,Yes,30-44
+P0188,30,Female,30.5,Obese,123,179,100,No,None,Moderate,No,No,No,None,No,30-44
+P0189,25,Male,26.9,Overweight,120,161,89,No,None,Moderate,Yes,No,No,None,No,<30
+P0190,30,Male,25.4,Overweight,125,188,111,No,Moderate,Low,Yes,No,No,None,No,30-44
+P0191,84,Female,34.4,Obese,148,253,148,No,Heavy,High,No,No,No,Diabetes,Yes,60+
+P0192,63,Female,28.9,Overweight,132,204,115,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0193,62,Female,30.9,Obese,142,201,118,No,None,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0194,34,Female,28.3,Overweight,134,187,102,Yes,None,High,No,No,No,Stroke,Yes,30-44
+P0195,44,Male,25.4,Overweight,122,204,95,No,Heavy,Moderate,No,No,No,None,No,30-44
+P0196,22,Female,26.9,Overweight,122,179,91,No,None,High,Yes,No,No,None,No,<30
+P0197,43,Female,30.6,Obese,142,206,99,Yes,Heavy,High,No,No,No,None,Yes,30-44
+P0198,79,Female,28.6,Overweight,156,202,140,Yes,None,Low,Yes,Yes,Yes,Heart disease,Yes,60+
+P0199,60,Female,35.7,Obese,148,214,127,Yes,Moderate,Low,No,No,No,None,Yes,60+
+P0200,50,Male,32.6,Obese,142,184,115,Yes,Moderate,Low,No,No,No,Stroke,Yes,45-59
+P0201,19,Male,21.8,Normal,121,175,81,No,None,Moderate,No,Yes,Yes,None,Yes,<30
+P0202,22,Male,27.4,Overweight,129,164,106,No,None,Low,No,No,No,None,No,<30
+P0203,83,Male,26.4,Overweight,150,201,114,No,Moderate,Moderate,No,No,No,Stroke,Yes,60+
+P0204,57,Female,25.1,Overweight,150,197,111,Yes,None,Low,No,No,No,None,Yes,45-59
+P0205,38,Female,28.5,Overweight,137,208,103,No,Heavy,Moderate,No,No,Yes,Diabetes,Yes,30-44
+P0206,28,Female,32.9,Obese,122,181,110,No,Moderate,High,No,No,No,None,No,<30
+P0207,29,Male,31.8,Obese,122,183,95,No,Heavy,Moderate,No,No,No,None,No,<30
+P0208,82,Male,37.1,Obese,159,221,138,Yes,None,Low,No,No,Yes,Diabetes,Yes,60+
+P0209,64,Male,25.1,Overweight,146,201,123,No,Moderate,Low,No,No,Yes,Heart disease,Yes,60+
+P0210,46,Female,23.3,Normal,130,197,121,Yes,None,Low,No,No,No,None,No,45-59
+P0211,83,Female,37.6,Obese,163,239,158,Yes,None,Low,No,No,No,Diabetes,Yes,60+
+P0212,36,Male,25.8,Overweight,123,169,106,No,None,High,No,No,No,None,No,30-44
+P0213,41,Male,24.6,Normal,118,196,97,No,None,Moderate,No,No,Yes,None,No,30-44
+P0214,73,Female,26.6,Overweight,143,200,118,No,None,Low,No,No,No,Diabetes,Yes,60+
+P0215,56,Female,29.5,Overweight,137,201,122,Yes,None,Moderate,No,Yes,No,Diabetes,Yes,45-59
+P0216,51,Female,33.2,Obese,127,190,109,No,Moderate,Moderate,Yes,Yes,No,Heart disease,Yes,45-59
+P0217,41,Female,26,Overweight,121,188,113,No,None,Moderate,No,No,No,Diabetes,Yes,30-44
+P0218,19,Female,26.6,Overweight,127,182,102,Yes,Moderate,Low,No,No,No,None,No,<30
+P0219,18,Male,25,Overweight,106,163,83,No,Moderate,Moderate,No,No,No,None,No,<30
+P0220,36,Male,28.9,Overweight,131,171,117,No,None,Low,No,No,No,None,No,30-44
+P0221,67,Male,35.4,Obese,138,215,129,No,None,High,Yes,No,Yes,Stroke,Yes,60+
+P0222,25,Female,25.2,Overweight,119,172,92,No,Moderate,Low,No,No,No,None,No,<30
+P0223,31,Female,30.8,Obese,122,176,109,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0224,56,Female,30.9,Obese,128,191,119,No,None,Low,No,No,No,Diabetes,Yes,45-59
+P0225,60,Male,24.8,Normal,141,192,112,No,Moderate,Moderate,No,No,No,Stroke,Yes,60+
+P0226,66,Female,35.4,Obese,143,198,130,No,Moderate,High,No,Yes,No,Heart disease,Yes,60+
+P0227,27,Male,29.1,Overweight,131,194,111,Yes,Heavy,High,No,Yes,No,None,Yes,<30
+P0228,20,Male,22.6,Normal,118,153,87,No,Moderate,Moderate,No,No,No,None,No,<30
+P0229,18,Female,23.2,Normal,120,152,92,Yes,Moderate,Low,No,No,No,None,No,<30
+P0230,79,Male,30.7,Obese,146,202,134,No,Moderate,Moderate,No,No,No,None,Yes,60+
+P0231,33,Male,29.3,Overweight,121,168,124,No,None,Low,Yes,No,No,Diabetes,Yes,30-44
+P0232,28,Male,28.7,Overweight,122,190,118,No,Moderate,Low,No,No,No,Heart disease,Yes,<30
+P0233,65,Female,34.4,Obese,145,198,146,No,Moderate,Low,No,No,No,Stroke,Yes,60+
+P0234,52,Female,32.8,Obese,145,197,127,No,Moderate,Low,No,No,No,None,Yes,45-59
+P0235,56,Female,30.4,Obese,144,212,118,No,Moderate,High,No,No,No,None,Yes,45-59
+P0236,24,Female,22.4,Normal,125,194,107,No,Heavy,Low,Yes,No,No,None,No,<30
+P0237,64,Male,34.4,Obese,146,210,141,Yes,Moderate,Low,No,No,No,Diabetes,Yes,60+
+P0238,59,Male,34.2,Obese,137,197,134,No,None,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0239,44,Female,26.3,Overweight,129,188,96,No,Heavy,Moderate,Yes,No,No,None,No,30-44
+P0240,79,Female,35.9,Obese,158,241,135,No,Heavy,Moderate,Yes,No,No,Heart disease,Yes,60+
+P0241,60,Male,28,Overweight,127,202,126,No,None,Moderate,Yes,No,No,Heart disease,Yes,60+
+P0242,29,Male,23.8,Normal,120,201,96,No,Heavy,Moderate,No,No,No,None,No,<30
+P0243,73,Female,28.9,Overweight,150,198,139,No,None,Low,No,No,No,None,Yes,60+
+P0244,62,Female,34.2,Obese,141,204,121,No,None,Moderate,No,No,No,None,Yes,60+
+P0245,42,Female,33.4,Obese,135,199,117,Yes,Moderate,High,Yes,Yes,Yes,Stroke,Yes,30-44
+P0246,21,Female,26.1,Overweight,127,182,81,No,Heavy,Moderate,No,No,No,None,No,<30
+P0247,71,Female,29.2,Overweight,150,222,131,No,None,High,Yes,No,No,Diabetes,Yes,60+
+P0248,73,Female,35.9,Obese,166,212,133,Yes,Moderate,Moderate,No,No,No,Heart disease,Yes,60+
+P0249,23,Female,29.4,Overweight,118,167,89,No,None,Moderate,No,No,No,None,No,<30
+P0250,52,Female,24.7,Normal,142,195,118,Yes,Moderate,Low,No,Yes,Yes,Stroke,Yes,45-59
+P0251,61,Male,26.3,Overweight,136,199,118,No,Moderate,Moderate,Yes,No,Yes,Stroke,Yes,60+
+P0252,52,Female,24.1,Normal,136,189,117,No,None,Moderate,Yes,No,No,Stroke,Yes,45-59
+P0253,71,Female,28.3,Overweight,137,215,121,No,None,Low,Yes,No,Yes,Stroke,Yes,60+
+P0254,83,Male,34.2,Obese,155,223,139,No,None,High,No,No,No,Heart disease,Yes,60+
+P0255,18,Female,32.3,Obese,130,183,102,No,Heavy,High,No,No,No,None,No,<30
+P0256,30,Female,27.5,Overweight,129,189,100,No,Moderate,High,No,No,No,None,No,30-44
+P0257,48,Male,23.9,Normal,138,211,93,Yes,Heavy,Moderate,No,No,No,Diabetes,Yes,45-59
+P0258,29,Male,33.6,Obese,128,169,110,No,None,Moderate,Yes,No,No,Stroke,Yes,<30
+P0259,65,Female,32.8,Obese,141,210,133,No,None,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0260,63,Male,31.2,Obese,157,194,128,Yes,None,Moderate,No,Yes,No,None,Yes,60+
+P0261,49,Male,28.1,Overweight,140,191,119,No,None,High,Yes,No,No,Diabetes,Yes,45-59
+P0262,67,Female,26.2,Overweight,147,192,121,No,Moderate,Moderate,No,No,No,None,Yes,60+
+P0263,45,Female,27.8,Overweight,125,186,110,No,None,High,No,No,Yes,None,No,45-59
+P0264,34,Male,31.6,Obese,126,180,118,No,None,Moderate,Yes,No,No,None,No,30-44
+P0265,29,Female,27.9,Overweight,119,168,101,No,Moderate,High,Yes,No,No,None,No,<30
+P0266,45,Female,29.5,Overweight,131,194,109,Yes,None,High,Yes,No,No,Diabetes,Yes,45-59
+P0267,21,Female,30.6,Obese,128,189,101,No,None,Moderate,No,No,Yes,Diabetes,Yes,<30
+P0268,33,Female,32.1,Obese,133,198,120,No,None,Moderate,No,No,No,Diabetes,Yes,30-44
+P0269,23,Female,28.8,Overweight,126,204,117,No,Heavy,Low,No,No,No,None,No,<30
+P0270,66,Female,28.1,Overweight,134,196,123,No,None,Moderate,No,No,Yes,Stroke,Yes,60+
+P0271,66,Female,34.8,Obese,156,221,123,Yes,None,High,No,No,Yes,None,Yes,60+
+P0272,72,Female,25.7,Overweight,141,216,129,No,None,Moderate,No,No,No,Stroke,Yes,60+
+P0273,29,Male,26.6,Overweight,128,178,94,No,None,High,No,No,No,None,No,<30
+P0274,46,Male,27.2,Overweight,138,180,114,No,None,High,Yes,Yes,No,Heart disease,Yes,45-59
+P0275,43,Female,28.6,Overweight,137,184,125,No,Moderate,Low,Yes,No,No,Heart disease,Yes,30-44
+P0276,55,Female,30.8,Obese,137,213,104,No,Moderate,High,No,No,No,Heart disease,Yes,45-59
+P0277,68,Female,30.8,Obese,133,210,131,No,Moderate,Low,Yes,No,Yes,Diabetes,Yes,60+
+P0278,84,Male,35.5,Obese,153,232,134,No,None,High,No,No,No,None,Yes,60+
+P0279,40,Male,31,Obese,124,182,108,No,None,High,No,No,No,None,No,30-44
+P0280,33,Male,22.6,Normal,134,173,103,Yes,Moderate,Moderate,No,No,No,None,No,30-44
+P0281,60,Female,31.4,Obese,148,216,128,No,None,High,No,Yes,No,Heart disease,Yes,60+
+P0282,30,Female,31.2,Obese,118,196,109,No,None,High,No,No,No,None,No,30-44
+P0283,30,Male,23.3,Normal,129,180,87,No,None,Moderate,No,No,No,None,No,30-44
+P0284,21,Male,28.3,Overweight,111,169,100,No,Moderate,Low,No,No,No,None,No,<30
+P0285,38,Female,29.6,Overweight,121,177,110,No,Moderate,High,No,No,No,Stroke,Yes,30-44
+P0286,44,Female,28.5,Overweight,129,181,126,No,None,Low,Yes,No,No,Diabetes,Yes,30-44
+P0287,53,Female,34.2,Obese,130,217,112,No,None,Moderate,Yes,No,No,Stroke,Yes,45-59
+P0288,70,Male,36,Obese,157,222,138,No,None,High,No,No,No,None,Yes,60+
+P0289,59,Male,36.2,Obese,145,212,133,No,Moderate,Low,No,No,Yes,None,Yes,45-59
+P0290,45,Female,35,Obese,144,208,123,Yes,None,Low,Yes,No,No,Diabetes,Yes,45-59
+P0291,58,Female,26.6,Overweight,134,193,119,No,None,High,Yes,No,No,Heart disease,Yes,45-59
+P0292,83,Male,37.5,Obese,157,233,137,No,Heavy,Moderate,No,No,Yes,Stroke,Yes,60+
+P0293,61,Male,25.1,Overweight,125,193,113,No,None,Moderate,Yes,No,No,Heart disease,Yes,60+
+P0294,45,Female,30.4,Obese,132,193,106,No,None,High,No,No,No,None,No,45-59
+P0295,70,Male,26.6,Overweight,142,212,113,Yes,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0296,40,Male,29,Overweight,134,180,97,No,Moderate,Moderate,No,No,Yes,Stroke,Yes,30-44
+P0297,67,Female,36.3,Obese,144,225,150,No,None,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0298,80,Female,37.1,Obese,153,223,152,Yes,Moderate,Low,Yes,No,Yes,None,Yes,60+
+P0299,44,Female,25.7,Overweight,126,182,110,No,None,Moderate,No,Yes,No,Diabetes,Yes,30-44
+P0300,31,Female,32.4,Obese,136,172,119,No,Moderate,Low,Yes,No,No,Stroke,Yes,30-44
+P0301,42,Male,33.9,Obese,138,207,121,Yes,None,High,No,Yes,No,Heart disease,Yes,30-44
+P0302,70,Male,26,Overweight,139,197,116,Yes,None,Low,No,No,No,None,No,60+
+P0303,70,Female,26.5,Overweight,141,214,109,No,Moderate,High,No,No,No,Stroke,Yes,60+
+P0304,78,Male,31.7,Obese,141,239,139,No,Heavy,Low,Yes,No,Yes,None,Yes,60+
+P0305,35,Female,26.9,Overweight,132,166,102,No,Moderate,Low,No,No,No,None,No,30-44
+P0306,73,Male,36.6,Obese,149,218,127,No,None,Moderate,No,No,No,Diabetes,Yes,60+
+P0307,45,Female,29.4,Overweight,128,196,121,No,None,Low,Yes,No,No,Diabetes,Yes,45-59
+P0308,28,Male,31.4,Obese,124,182,101,No,None,Moderate,No,No,No,None,No,<30
+P0309,46,Male,30.4,Obese,143,203,121,Yes,Moderate,Moderate,No,No,No,None,Yes,45-59
+P0310,68,Male,33.9,Obese,158,207,126,Yes,None,Moderate,No,No,No,Stroke,Yes,60+
+P0311,25,Female,26.4,Overweight,126,169,99,Yes,Moderate,Moderate,Yes,No,No,None,No,<30
+P0312,73,Female,25.9,Overweight,149,198,138,No,None,Low,No,No,No,None,Yes,60+
+P0313,40,Female,27.1,Overweight,128,190,103,No,None,High,No,No,No,None,No,30-44
+P0314,73,Female,35.4,Obese,160,212,136,Yes,None,Moderate,Yes,Yes,No,Diabetes,Yes,60+
+P0315,43,Male,31.5,Obese,147,193,108,Yes,None,Moderate,No,No,Yes,Diabetes,Yes,30-44
+P0316,30,Female,24.3,Normal,117,187,94,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0317,28,Male,31.4,Obese,130,188,115,No,Moderate,Low,No,No,No,None,No,<30
+P0318,76,Female,32.2,Obese,145,207,128,No,None,High,Yes,No,No,Stroke,Yes,60+
+P0319,67,Male,32.6,Obese,141,219,134,No,None,Low,No,No,No,Heart disease,Yes,60+
+P0320,81,Male,29.7,Overweight,138,221,143,No,None,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0321,56,Female,28.3,Overweight,131,219,109,No,Heavy,Moderate,Yes,No,No,None,No,45-59
+P0322,63,Male,27.8,Overweight,143,196,126,No,Moderate,High,No,No,No,Diabetes,Yes,60+
+P0323,81,Female,27.8,Overweight,161,223,141,Yes,Moderate,Low,No,No,No,None,Yes,60+
+P0324,23,Female,21.8,Normal,124,162,98,No,None,Low,No,No,No,None,No,<30
+P0325,58,Female,24.7,Normal,140,205,114,No,Heavy,Moderate,No,No,No,None,Yes,45-59
+P0326,76,Male,37,Obese,154,232,141,No,Heavy,High,Yes,No,No,Diabetes,Yes,60+
+P0327,66,Male,26.8,Overweight,142,190,119,No,None,Moderate,No,No,No,Diabetes,Yes,60+
+P0328,18,Male,21.6,Normal,108,168,80,No,None,Moderate,No,No,No,None,No,<30
+P0329,58,Male,26.1,Overweight,131,211,117,No,Heavy,High,No,No,No,None,No,45-59
+P0330,76,Male,28.3,Overweight,151,225,140,No,None,Low,Yes,No,No,Stroke,Yes,60+
+P0331,76,Female,34.6,Obese,155,204,123,No,Moderate,High,No,No,No,Heart disease,Yes,60+
+P0332,19,Male,26.7,Overweight,108,186,94,No,Heavy,High,No,No,No,None,No,<30
+P0333,33,Male,24.3,Normal,122,204,105,No,Heavy,High,No,No,No,None,No,30-44
+P0334,48,Male,32.7,Obese,135,200,117,No,Moderate,Low,No,Yes,No,Heart disease,Yes,45-59
+P0335,48,Female,28.2,Overweight,127,201,120,No,None,Low,No,No,Yes,None,No,45-59
+P0336,22,Female,29.7,Overweight,137,180,95,Yes,None,Moderate,No,No,No,None,No,<30
+P0337,31,Male,25.2,Overweight,125,166,94,Yes,Moderate,Moderate,No,No,No,None,No,30-44
+P0338,52,Female,28.6,Overweight,131,196,104,No,Moderate,High,No,Yes,No,Heart disease,Yes,45-59
+P0339,72,Male,26.4,Overweight,147,205,107,Yes,Moderate,Moderate,No,No,Yes,Stroke,Yes,60+
+P0340,31,Female,32.4,Obese,127,205,109,No,Heavy,Low,No,No,No,None,No,30-44
+P0341,79,Female,30.8,Obese,138,207,147,No,None,Low,Yes,No,Yes,Stroke,Yes,60+
+P0342,82,Female,29.9,Overweight,147,212,133,No,None,High,No,No,No,Diabetes,Yes,60+
+P0343,69,Male,35.4,Obese,148,225,135,No,Moderate,High,Yes,No,No,None,Yes,60+
+P0344,34,Female,22.7,Normal,117,177,86,No,None,High,No,No,No,None,No,30-44
+P0345,48,Female,30.8,Obese,140,182,115,Yes,None,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0346,37,Male,29.3,Overweight,125,173,117,No,None,Low,No,No,Yes,None,No,30-44
+P0347,81,Female,34.5,Obese,159,219,131,No,None,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0348,43,Male,25.7,Overweight,119,198,102,No,Heavy,Moderate,No,No,Yes,None,No,30-44
+P0349,27,Female,24.9,Normal,126,161,110,No,None,Low,No,Yes,No,None,Yes,<30
+P0350,75,Female,31.5,Obese,151,213,147,No,None,Low,No,No,No,Stroke,Yes,60+
+P0351,58,Female,31.1,Obese,140,193,114,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0352,80,Male,34.1,Obese,153,229,143,No,None,High,No,No,Yes,Stroke,Yes,60+
+P0353,63,Female,31.1,Obese,150,191,126,No,Moderate,Moderate,No,No,No,Diabetes,Yes,60+
+P0354,63,Female,36.5,Obese,144,232,126,No,Heavy,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0355,21,Female,23.8,Normal,124,167,77,No,Moderate,Moderate,No,No,No,None,No,<30
+P0356,70,Male,31.2,Obese,148,197,126,Yes,None,Low,No,Yes,No,Heart disease,Yes,60+
+P0357,57,Female,31.1,Obese,128,193,113,No,None,Moderate,No,No,Yes,Stroke,Yes,45-59
+P0358,80,Female,36.7,Obese,151,238,150,No,None,Low,Yes,Yes,No,None,Yes,60+
+P0359,63,Male,27.9,Overweight,136,208,104,No,None,Moderate,No,No,Yes,Stroke,Yes,60+
+P0360,82,Female,34.2,Obese,146,209,128,No,Moderate,Moderate,No,No,No,None,Yes,60+
+P0361,51,Male,33.9,Obese,137,189,108,Yes,None,Moderate,No,Yes,No,Heart disease,Yes,45-59
+P0362,45,Male,26.8,Overweight,136,199,101,No,Moderate,High,Yes,No,Yes,Stroke,Yes,45-59
+P0363,52,Female,35.1,Obese,135,187,142,No,None,Low,No,Yes,No,Diabetes,Yes,45-59
+P0364,53,Male,24.7,Normal,141,181,100,No,None,Moderate,No,No,No,None,Yes,45-59
+P0365,29,Male,24.3,Normal,135,159,103,Yes,Moderate,Moderate,Yes,No,No,Diabetes,Yes,<30
+P0366,75,Female,32.9,Obese,154,202,128,No,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0367,58,Female,35.7,Obese,134,218,147,No,None,Low,No,No,No,Stroke,Yes,45-59
+P0368,39,Female,29.5,Overweight,124,175,115,No,Moderate,High,No,No,No,None,No,30-44
+P0369,39,Female,25.1,Overweight,129,175,111,No,Moderate,Moderate,Yes,No,No,None,No,30-44
+P0370,85,Male,27.3,Overweight,151,209,116,No,Moderate,High,No,No,Yes,Stroke,Yes,60+
+P0371,81,Female,28.1,Overweight,145,200,135,No,None,Moderate,No,No,Yes,Stroke,Yes,60+
+P0372,46,Female,30.1,Obese,142,179,120,No,None,Moderate,Yes,No,Yes,Stroke,Yes,45-59
+P0373,70,Female,26.8,Overweight,156,191,117,Yes,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0374,64,Female,31.6,Obese,152,218,119,Yes,Heavy,Moderate,No,No,Yes,Stroke,Yes,60+
+P0375,83,Male,31,Obese,163,232,143,Yes,None,Low,No,No,No,Diabetes,Yes,60+
+P0376,80,Female,27,Overweight,137,197,131,No,Moderate,Moderate,No,No,No,Stroke,Yes,60+
+P0377,59,Female,35.9,Obese,141,210,133,No,None,Moderate,No,Yes,Yes,Heart disease,Yes,45-59
+P0378,85,Female,32.4,Obese,158,224,134,Yes,Heavy,Moderate,Yes,Yes,Yes,Heart disease,Yes,60+
+P0379,35,Male,25.1,Overweight,127,179,98,Yes,None,High,No,No,No,None,No,30-44
+P0380,48,Female,26.2,Overweight,139,190,105,Yes,None,Moderate,No,No,No,Stroke,Yes,45-59
+P0381,72,Female,35.5,Obese,166,216,124,Yes,None,Moderate,Yes,No,No,Stroke,Yes,60+
+P0382,67,Female,31.2,Obese,150,194,117,No,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0383,74,Male,30.9,Obese,144,218,116,No,Heavy,Moderate,No,No,No,None,Yes,60+
+P0384,37,Female,26.8,Overweight,126,176,107,No,Moderate,High,Yes,Yes,No,None,Yes,30-44
+P0385,84,Male,36.4,Obese,160,215,158,No,None,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0386,61,Female,34.3,Obese,134,213,118,No,None,High,No,No,No,Stroke,Yes,60+
+P0387,82,Male,33.5,Obese,165,217,140,Yes,None,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0388,62,Male,27.1,Overweight,145,207,118,No,None,Low,No,No,No,Diabetes,Yes,60+
+P0389,30,Male,33.5,Obese,129,188,107,No,None,Low,No,No,No,None,No,30-44
+P0390,59,Male,29,Overweight,129,200,108,No,Moderate,Moderate,No,No,No,Diabetes,Yes,45-59
+P0391,42,Female,33.4,Obese,123,182,117,No,None,Low,No,Yes,No,None,Yes,30-44
+P0392,28,Male,22.6,Normal,122,164,96,No,Moderate,Moderate,No,No,No,None,No,<30
+P0393,85,Female,35.3,Obese,162,231,146,No,Moderate,Moderate,No,No,No,Diabetes,Yes,60+
+P0394,45,Male,31,Obese,140,188,108,No,Moderate,High,Yes,No,No,Heart disease,Yes,45-59
+P0395,69,Female,28.2,Overweight,138,216,110,No,Moderate,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0396,79,Female,33.3,Obese,143,212,137,No,Moderate,Low,No,No,No,None,Yes,60+
+P0397,42,Female,26.4,Overweight,124,209,119,No,Heavy,Low,No,No,No,None,No,30-44
+P0398,33,Female,29.3,Overweight,118,179,103,No,Moderate,Low,No,No,No,None,No,30-44
+P0399,25,Female,26.9,Overweight,116,166,87,No,None,Moderate,No,No,No,None,No,<30
+P0400,22,Male,27.7,Overweight,121,182,95,Yes,None,Low,No,Yes,No,None,Yes,<30
+P0401,42,Female,24.7,Normal,129,176,93,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0402,72,Male,30.5,Obese,158,215,127,Yes,None,Low,No,No,No,Heart disease,Yes,60+
+P0403,55,Male,33.2,Obese,145,188,114,Yes,None,High,Yes,No,No,Heart disease,Yes,45-59
+P0404,19,Male,31,Obese,128,183,106,No,None,Low,No,Yes,Yes,None,Yes,<30
+P0405,60,Female,31,Obese,144,198,141,Yes,None,Low,No,No,No,None,Yes,60+
+P0406,57,Male,30.5,Obese,131,229,115,No,Heavy,Low,No,No,No,None,No,45-59
+P0407,65,Female,32,Obese,159,198,114,Yes,Moderate,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0408,73,Male,35.4,Obese,161,228,145,Yes,Heavy,Low,No,No,No,None,Yes,60+
+P0409,23,Male,22.9,Normal,122,179,90,No,None,High,No,No,No,None,No,<30
+P0410,28,Female,27.1,Overweight,120,189,108,No,Moderate,Low,Yes,No,Yes,None,No,<30
+P0411,51,Male,33.5,Obese,141,187,123,Yes,None,Low,Yes,Yes,No,Heart disease,Yes,45-59
+P0412,67,Female,25.6,Overweight,132,203,116,No,None,Low,No,No,No,Diabetes,Yes,60+
+P0413,32,Female,27.7,Overweight,126,170,104,No,None,Low,Yes,No,No,None,No,30-44
+P0414,44,Male,26.4,Overweight,136,192,100,No,None,Moderate,No,No,No,Diabetes,Yes,30-44
+P0415,19,Male,27,Overweight,126,177,83,No,None,High,No,No,No,None,No,<30
+P0416,22,Male,30.7,Obese,127,164,105,No,None,High,No,No,No,None,No,<30
+P0417,55,Female,31.3,Obese,133,213,129,No,None,Moderate,No,No,Yes,None,No,45-59
+P0418,29,Male,27,Overweight,115,171,93,No,Moderate,Moderate,No,No,No,None,No,<30
+P0419,79,Male,28.4,Overweight,137,222,131,No,None,Low,Yes,No,No,Stroke,Yes,60+
+P0420,22,Female,32,Obese,131,167,119,Yes,None,Low,No,No,No,Diabetes,Yes,<30
+P0421,61,Female,24.7,Normal,125,192,114,No,None,Moderate,No,No,No,Stroke,Yes,60+
+P0422,50,Male,25.9,Overweight,121,190,119,No,Heavy,Low,No,No,No,None,No,45-59
+P0423,74,Female,35.2,Obese,165,232,134,Yes,None,Moderate,No,Yes,No,None,Yes,60+
+P0424,48,Female,26.3,Overweight,128,183,119,No,Moderate,Low,No,No,No,None,No,45-59
+P0425,44,Female,23.9,Normal,125,180,109,Yes,None,Moderate,No,No,No,None,No,30-44
+P0426,30,Male,31.3,Obese,131,199,113,No,Heavy,Moderate,No,No,No,None,No,30-44
+P0427,36,Male,29.4,Overweight,127,172,96,Yes,Moderate,High,No,No,No,None,No,30-44
+P0428,30,Female,33.4,Obese,134,180,120,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0429,54,Female,32.4,Obese,144,199,124,No,Moderate,Low,No,No,No,Heart disease,Yes,45-59
+P0430,64,Female,27.7,Overweight,144,202,109,Yes,None,High,No,No,Yes,Stroke,Yes,60+
+P0431,24,Female,29,Overweight,121,161,104,No,None,Low,No,No,No,None,No,<30
+P0432,60,Male,24.6,Normal,143,197,107,No,Moderate,Low,Yes,No,No,Diabetes,Yes,60+
+P0433,63,Female,26.6,Overweight,133,193,116,No,Moderate,Low,No,Yes,No,Diabetes,Yes,60+
+P0434,71,Female,36.4,Obese,148,212,126,No,Moderate,High,No,No,No,Stroke,Yes,60+
+P0435,49,Female,32,Obese,140,206,112,Yes,None,Moderate,No,Yes,No,Heart disease,Yes,45-59
+P0436,37,Female,30.5,Obese,135,192,113,No,None,Low,No,No,No,None,No,30-44
+P0437,35,Female,22.5,Normal,130,179,97,No,Moderate,Moderate,No,No,No,Diabetes,Yes,30-44
+P0438,39,Male,26,Overweight,123,175,112,No,None,Low,No,No,No,Heart disease,Yes,30-44
+P0439,37,Male,24.9,Normal,131,174,102,Yes,Moderate,Low,No,No,No,None,No,30-44
+P0440,29,Female,30.6,Obese,121,191,122,No,None,Low,Yes,No,No,Diabetes,Yes,<30
+P0441,57,Female,29.6,Overweight,139,193,123,No,None,Low,Yes,No,No,Diabetes,Yes,45-59
+P0442,52,Male,24.5,Normal,138,197,115,Yes,Moderate,Moderate,No,No,No,Heart disease,Yes,45-59
+P0443,57,Male,31.1,Obese,132,215,117,No,None,High,No,No,No,Heart disease,Yes,45-59
+P0444,49,Female,24.5,Normal,122,198,116,No,Moderate,Low,No,No,No,None,No,45-59
+P0445,83,Female,36.7,Obese,160,236,145,No,Heavy,High,No,No,Yes,Heart disease,Yes,60+
+P0446,62,Female,29.9,Overweight,147,194,116,Yes,Moderate,Low,No,Yes,No,Heart disease,Yes,60+
+P0447,33,Male,23.2,Normal,123,177,101,No,Heavy,High,Yes,No,No,None,No,30-44
+P0448,83,Male,29.3,Overweight,154,221,132,No,None,Moderate,No,No,Yes,None,Yes,60+
+P0449,59,Female,26,Overweight,136,190,126,No,None,Low,Yes,No,No,Heart disease,Yes,45-59
+P0450,79,Female,37,Obese,148,218,130,No,None,Moderate,No,No,Yes,Stroke,Yes,60+
+P0451,36,Female,22.9,Normal,121,199,87,No,Heavy,Moderate,No,No,No,None,No,30-44
+P0452,77,Female,36.3,Obese,160,233,135,No,Moderate,High,No,No,No,Diabetes,Yes,60+
+P0453,20,Female,30.6,Obese,124,165,120,No,Moderate,Low,No,No,Yes,None,No,<30
+P0454,57,Female,30.5,Obese,128,212,116,No,None,High,Yes,No,No,Heart disease,Yes,45-59
+P0455,82,Female,27.8,Overweight,152,232,139,No,Heavy,Low,No,No,No,Heart disease,Yes,60+
+P0456,67,Female,29.7,Overweight,134,226,118,No,Heavy,Moderate,Yes,No,Yes,Stroke,Yes,60+
+P0457,67,Male,30.1,Obese,141,209,125,No,None,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0458,81,Female,31.8,Obese,157,214,125,No,None,Moderate,No,No,Yes,None,Yes,60+
+P0459,73,Male,29.1,Overweight,134,211,125,No,Moderate,High,No,No,No,None,No,60+
+P0460,60,Female,25.8,Overweight,140,213,116,No,Heavy,Moderate,No,No,No,None,Yes,60+
+P0461,71,Male,37.1,Obese,139,220,134,No,Heavy,High,Yes,No,No,Stroke,Yes,60+
+P0462,36,Female,32.4,Obese,136,180,130,No,None,Low,Yes,No,No,Diabetes,Yes,30-44
+P0463,28,Male,29.1,Overweight,122,171,122,Yes,None,Low,No,No,Yes,Diabetes,Yes,<30
+P0464,35,Female,32.5,Obese,142,181,98,Yes,Moderate,High,No,No,No,Diabetes,Yes,30-44
+P0465,77,Male,28,Overweight,148,225,129,No,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0466,28,Male,25.5,Overweight,114,168,94,No,None,Low,No,No,No,None,No,<30
+P0467,45,Female,31.2,Obese,145,195,106,Yes,None,High,Yes,No,No,Diabetes,Yes,45-59
+P0468,72,Female,26.4,Overweight,145,207,122,No,Heavy,Moderate,No,No,No,Heart disease,Yes,60+
+P0469,47,Female,24.7,Normal,138,201,99,No,Heavy,High,No,No,Yes,None,No,45-59
+P0470,57,Male,24.8,Normal,126,185,117,No,None,Low,Yes,No,No,Stroke,Yes,45-59
+P0471,21,Female,30.8,Obese,117,179,98,No,None,Moderate,No,No,No,None,No,<30
+P0472,40,Female,26.5,Overweight,133,209,109,No,Heavy,High,No,No,No,Diabetes,Yes,30-44
+P0473,70,Male,29.3,Overweight,137,194,127,No,Moderate,High,No,No,No,None,No,60+
+P0474,59,Female,29.1,Overweight,145,211,125,Yes,None,Moderate,No,Yes,No,None,Yes,45-59
+P0475,46,Male,23.7,Normal,136,180,111,No,None,High,No,No,Yes,None,No,45-59
+P0476,56,Female,29.1,Overweight,143,194,106,No,None,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0477,46,Female,33.3,Obese,144,203,115,No,Moderate,Moderate,No,No,No,Diabetes,Yes,45-59
+P0478,77,Male,28,Overweight,147,199,121,No,Moderate,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0479,37,Female,27.5,Overweight,128,171,100,No,None,Moderate,No,Yes,No,None,Yes,30-44
+P0480,75,Male,28.9,Overweight,145,211,130,Yes,Moderate,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0481,38,Female,32.7,Obese,133,175,102,No,None,Moderate,No,No,No,None,No,30-44
+P0482,44,Male,31.1,Obese,136,220,106,No,Heavy,Moderate,No,No,No,Diabetes,Yes,30-44
+P0483,18,Female,22.9,Normal,119,188,91,No,Heavy,Low,No,No,No,None,No,<30
+P0484,25,Female,31.9,Obese,131,183,92,No,Moderate,High,No,No,No,None,No,<30
+P0485,51,Male,31.2,Obese,143,211,122,Yes,Heavy,Low,No,No,No,Diabetes,Yes,45-59
+P0486,23,Male,24.8,Normal,125,165,93,Yes,None,Moderate,Yes,No,No,None,No,<30
+P0487,77,Female,36.8,Obese,147,246,152,No,Heavy,Low,Yes,No,No,None,Yes,60+
+P0488,35,Male,24.5,Normal,114,206,106,No,Heavy,High,No,No,No,None,No,30-44
+P0489,47,Male,33.5,Obese,134,198,107,No,Moderate,Moderate,No,No,No,Diabetes,Yes,45-59
+P0490,55,Female,24,Normal,138,196,107,No,Moderate,Low,Yes,No,No,None,No,45-59
+P0491,24,Male,26.8,Overweight,118,184,104,Yes,Moderate,Moderate,No,No,No,None,No,<30
+P0492,60,Male,25.5,Overweight,139,192,109,Yes,None,Moderate,No,No,No,Stroke,Yes,60+
+P0493,34,Female,26.2,Overweight,115,172,98,No,Moderate,Moderate,Yes,No,No,None,No,30-44
+P0494,83,Female,34.9,Obese,153,229,146,No,Heavy,Low,No,Yes,No,None,Yes,60+
+P0495,54,Male,35.2,Obese,139,190,119,No,Moderate,Moderate,No,No,No,None,No,45-59
+P0496,36,Male,23.9,Normal,140,195,100,Yes,Heavy,High,No,No,No,None,Yes,30-44
+P0497,78,Female,32.4,Obese,144,203,121,No,None,High,Yes,No,No,Diabetes,Yes,60+
+P0498,58,Male,30.5,Obese,130,192,134,No,Moderate,Low,Yes,No,Yes,Stroke,Yes,45-59
+P0499,56,Female,26.6,Overweight,143,209,123,No,Moderate,Low,No,No,No,Diabetes,Yes,45-59
+P0500,71,Female,33,Obese,151,224,125,Yes,None,High,Yes,Yes,No,Heart disease,Yes,60+
+P0501,48,Male,30.8,Obese,141,184,105,Yes,None,Moderate,No,Yes,No,Heart disease,Yes,45-59
+P0502,18,Male,22.4,Normal,104,175,92,No,None,Low,No,No,No,None,No,<30
+P0503,36,Male,24.2,Normal,137,175,116,Yes,Moderate,Low,Yes,Yes,No,Heart disease,Yes,30-44
+P0504,19,Female,27.2,Overweight,125,171,100,No,None,High,No,No,Yes,None,No,<30
+P0505,20,Female,26,Overweight,125,197,94,Yes,Heavy,Low,Yes,Yes,No,None,Yes,<30
+P0506,63,Female,28.8,Overweight,146,192,105,Yes,Moderate,High,No,No,No,None,Yes,60+
+P0507,68,Male,35,Obese,151,221,119,No,None,Moderate,Yes,No,No,None,Yes,60+
+P0508,38,Female,24.2,Normal,125,186,90,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0509,84,Male,36.8,Obese,158,217,145,Yes,None,Low,Yes,No,Yes,Stroke,Yes,60+
+P0510,60,Female,32.1,Obese,137,193,130,No,Moderate,Low,Yes,No,No,Diabetes,Yes,60+
+P0511,79,Female,37.3,Obese,159,222,136,No,None,Moderate,No,Yes,No,None,Yes,60+
+P0512,18,Male,24.1,Normal,106,164,106,No,None,Low,Yes,No,No,None,No,<30
+P0513,77,Female,35.7,Obese,157,228,125,No,None,High,Yes,No,No,Heart disease,Yes,60+
+P0514,51,Male,31.8,Obese,143,210,111,Yes,None,High,No,No,No,None,Yes,45-59
+P0515,18,Female,31.6,Obese,138,190,105,Yes,Heavy,High,No,No,No,None,No,<30
+P0516,20,Female,32.3,Obese,117,188,112,No,Moderate,Low,No,No,No,None,No,<30
+P0517,39,Female,33.2,Obese,123,185,120,No,Moderate,High,No,No,No,None,No,30-44
+P0518,41,Male,33.5,Obese,129,179,129,No,None,Low,No,Yes,No,Heart disease,Yes,30-44
+P0519,74,Female,28.6,Overweight,142,211,134,No,Heavy,Low,No,No,No,None,Yes,60+
+P0520,62,Male,25,Overweight,150,194,126,Yes,Moderate,Low,Yes,No,No,Diabetes,Yes,60+
+P0521,66,Female,34.7,Obese,137,219,118,No,Heavy,High,Yes,No,No,None,No,60+
+P0522,70,Male,25.9,Overweight,140,204,124,No,None,Low,Yes,No,No,Diabetes,Yes,60+
+P0523,82,Male,36.9,Obese,166,218,147,Yes,Moderate,Low,Yes,No,No,Heart disease,Yes,60+
+P0524,69,Female,33.4,Obese,152,237,122,No,Heavy,High,Yes,No,No,Heart disease,Yes,60+
+P0525,69,Female,27.5,Overweight,131,197,129,No,Moderate,High,Yes,No,No,Diabetes,Yes,60+
+P0526,73,Male,31.2,Obese,151,200,126,No,Moderate,High,No,No,No,Diabetes,Yes,60+
+P0527,21,Male,31.5,Obese,117,171,100,No,None,Moderate,Yes,No,No,None,No,<30
+P0528,46,Male,31.2,Obese,134,205,114,No,Moderate,Low,Yes,No,No,Heart disease,Yes,45-59
+P0529,51,Female,27.5,Overweight,131,186,115,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0530,71,Male,34.1,Obese,141,206,127,No,None,Moderate,No,No,No,None,Yes,60+
+P0531,50,Female,31.3,Obese,140,201,104,No,Moderate,Moderate,Yes,Yes,No,Heart disease,Yes,45-59
+P0532,63,Male,36.6,Obese,146,207,140,No,Moderate,Low,Yes,No,No,None,Yes,60+
+P0533,79,Male,31.3,Obese,158,228,139,Yes,None,High,No,No,No,Heart disease,Yes,60+
+P0534,76,Male,31.8,Obese,139,218,135,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0535,28,Female,28.7,Overweight,114,182,102,No,Moderate,Moderate,Yes,Yes,No,Heart disease,Yes,<30
+P0536,28,Male,31.1,Obese,131,190,101,No,Moderate,Moderate,No,No,No,Diabetes,Yes,<30
+P0537,47,Male,27.1,Overweight,135,202,122,Yes,None,Low,Yes,No,No,Diabetes,Yes,45-59
+P0538,27,Male,23,Normal,122,174,102,No,None,Low,No,Yes,No,None,Yes,<30
+P0539,77,Male,31.3,Obese,139,210,117,No,None,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0540,18,Male,21.3,Normal,118,148,76,No,None,Moderate,No,No,No,Diabetes,Yes,<30
+P0541,54,Female,30.9,Obese,129,188,112,No,None,Moderate,No,No,No,Diabetes,Yes,45-59
+P0542,55,Male,26.8,Overweight,147,196,105,Yes,Moderate,High,No,Yes,No,Heart disease,Yes,45-59
+P0543,41,Female,34,Obese,134,209,106,No,Heavy,High,No,No,No,None,No,30-44
+P0544,76,Female,34.8,Obese,148,229,144,No,None,Moderate,No,No,No,None,Yes,60+
+P0545,82,Female,26.2,Overweight,150,202,114,No,None,High,No,No,No,None,Yes,60+
+P0546,65,Female,34.7,Obese,152,230,137,No,Heavy,Moderate,No,No,No,Diabetes,Yes,60+
+P0547,20,Male,25.6,Overweight,117,168,108,No,None,Low,No,No,No,None,No,<30
+P0548,68,Female,34.1,Obese,155,221,137,No,None,Moderate,Yes,No,No,Heart disease,Yes,60+
+P0549,38,Female,32,Obese,141,200,131,Yes,Heavy,Low,No,No,No,Heart disease,Yes,30-44
+P0550,25,Female,21.7,Normal,114,157,104,No,None,Low,No,No,No,None,No,<30
+P0551,34,Male,33.6,Obese,144,188,118,Yes,Moderate,Moderate,No,No,No,Heart disease,Yes,30-44
+P0552,38,Female,27.7,Overweight,136,198,101,No,None,High,No,No,No,None,No,30-44
+P0553,65,Female,33.4,Obese,150,223,137,No,Moderate,High,No,No,No,None,Yes,60+
+P0554,45,Male,34.8,Obese,128,198,115,No,Heavy,Low,No,No,No,Heart disease,Yes,45-59
+P0555,80,Female,26,Overweight,138,223,135,No,Moderate,Low,No,No,Yes,Stroke,Yes,60+
+P0556,72,Male,28.6,Overweight,133,221,123,No,None,High,Yes,Yes,No,Heart disease,Yes,60+
+P0557,49,Male,32.1,Obese,137,203,127,No,None,High,No,No,Yes,Stroke,Yes,45-59
+P0558,37,Male,28.8,Overweight,137,183,115,No,None,Low,No,No,No,Heart disease,Yes,30-44
+P0559,68,Male,27,Overweight,143,214,122,No,None,High,Yes,No,No,Diabetes,Yes,60+
+P0560,73,Male,33.8,Obese,140,204,145,No,None,Low,Yes,No,No,Diabetes,Yes,60+
+P0561,74,Female,31.1,Obese,155,209,120,No,Moderate,High,No,No,Yes,Stroke,Yes,60+
+P0562,83,Female,30.6,Obese,155,225,137,No,None,Low,No,No,No,Heart disease,Yes,60+
+P0563,48,Male,30.8,Obese,142,190,104,Yes,Moderate,High,Yes,No,No,Diabetes,Yes,45-59
+P0564,33,Male,24.2,Normal,115,185,102,No,None,Low,No,No,No,None,No,30-44
+P0565,22,Female,22.1,Normal,110,186,87,No,Heavy,Moderate,No,No,Yes,None,No,<30
+P0566,72,Female,26.9,Overweight,148,224,109,No,Heavy,High,No,No,No,None,Yes,60+
+P0567,61,Male,26.1,Overweight,152,213,117,Yes,Heavy,High,Yes,No,No,Diabetes,Yes,60+
+P0568,64,Male,24.9,Normal,134,186,108,No,Moderate,Moderate,No,No,No,Heart disease,Yes,60+
+P0569,70,Female,31.2,Obese,147,218,113,No,None,Moderate,No,No,No,Stroke,Yes,60+
+P0570,79,Female,32.2,Obese,149,213,125,Yes,Moderate,High,No,Yes,No,Heart disease,Yes,60+
+P0571,29,Female,22.4,Normal,119,162,80,No,None,Moderate,No,No,No,None,No,<30
+P0572,72,Female,35.6,Obese,144,231,132,No,Moderate,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0573,74,Female,29.3,Overweight,146,224,119,No,None,High,No,No,No,Heart disease,Yes,60+
+P0574,24,Male,25.8,Overweight,116,169,82,No,Moderate,Moderate,No,No,No,Heart disease,Yes,<30
+P0575,24,Female,25.3,Overweight,110,156,96,No,None,Moderate,No,No,No,None,No,<30
+P0576,22,Female,24.8,Normal,125,169,98,No,Moderate,Low,No,No,No,None,No,<30
+P0577,21,Male,21.5,Normal,120,166,94,No,None,High,No,No,Yes,None,No,<30
+P0578,34,Male,25.8,Overweight,118,164,97,No,Moderate,Moderate,Yes,No,No,None,No,30-44
+P0579,42,Male,34.3,Obese,143,201,113,No,Moderate,Moderate,No,No,No,Heart disease,Yes,30-44
+P0580,22,Male,21.6,Normal,121,172,96,No,Moderate,Moderate,No,No,No,None,No,<30
+P0581,26,Female,27.9,Overweight,116,163,96,No,Moderate,High,No,No,No,Diabetes,Yes,<30
+P0582,80,Male,29.4,Overweight,150,202,135,No,Moderate,Low,No,No,No,Diabetes,Yes,60+
+P0583,48,Male,30,Obese,139,208,114,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0584,23,Male,28.8,Overweight,113,182,103,No,Moderate,Moderate,No,No,No,None,No,<30
+P0585,79,Female,32.8,Obese,146,207,130,No,None,Moderate,No,No,No,Diabetes,Yes,60+
+P0586,79,Female,36.5,Obese,162,208,140,No,None,Low,No,No,No,Heart disease,Yes,60+
+P0587,57,Female,33.6,Obese,137,215,139,No,Moderate,Low,Yes,No,No,Diabetes,Yes,45-59
+P0588,63,Male,29.1,Overweight,141,196,128,No,None,Low,No,No,No,Stroke,Yes,60+
+P0589,44,Female,31.4,Obese,140,189,133,No,None,Low,Yes,No,No,Heart disease,Yes,30-44
+P0590,48,Male,30.8,Obese,141,202,110,Yes,Moderate,Moderate,No,No,No,Diabetes,Yes,45-59
+P0591,44,Female,27.6,Overweight,133,194,111,Yes,None,High,Yes,Yes,No,Heart disease,Yes,30-44
+P0592,38,Male,23,Normal,130,170,109,No,None,Low,No,No,No,Diabetes,Yes,30-44
+P0593,46,Male,25.2,Overweight,119,179,119,No,Moderate,Low,Yes,No,No,None,No,45-59
+P0594,47,Female,25.1,Overweight,138,185,95,No,None,Moderate,No,No,No,None,No,45-59
+P0595,57,Male,32.7,Obese,143,199,120,No,None,Moderate,No,No,No,Diabetes,Yes,45-59
+P0596,25,Female,22.5,Normal,124,168,102,No,None,Low,Yes,No,No,None,No,<30
+P0597,32,Female,28.5,Overweight,121,178,101,No,None,Moderate,No,No,No,None,No,30-44
+P0598,39,Female,27.8,Overweight,118,190,100,No,None,Moderate,No,No,No,None,No,30-44
+P0599,66,Male,33.1,Obese,151,210,125,No,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0600,24,Female,24,Normal,120,176,95,No,Moderate,Moderate,Yes,No,No,None,No,<30
+P0601,51,Male,35.2,Obese,142,194,136,No,Moderate,Low,No,No,No,Diabetes,Yes,45-59
+P0602,79,Female,26.1,Overweight,148,216,121,No,Heavy,Moderate,No,No,Yes,Stroke,Yes,60+
+P0603,74,Male,31.6,Obese,150,228,118,Yes,None,Moderate,No,No,No,Heart disease,Yes,60+
+P0604,65,Male,32.6,Obese,135,231,127,No,Heavy,Moderate,No,No,No,Diabetes,Yes,60+
+P0605,51,Male,25.4,Overweight,124,190,102,No,None,Moderate,No,No,No,None,No,45-59
+P0606,26,Female,21.8,Normal,110,164,97,No,None,Moderate,No,No,No,None,No,<30
+P0607,19,Male,25.1,Overweight,117,163,81,Yes,None,High,No,No,No,None,No,<30
+P0608,23,Female,22.6,Normal,119,183,84,No,Heavy,High,No,No,No,None,No,<30
+P0609,33,Male,26.4,Overweight,131,180,97,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0610,80,Male,26.1,Overweight,147,202,129,No,Moderate,Low,Yes,No,Yes,Stroke,Yes,60+
+P0611,60,Female,26.1,Overweight,132,207,114,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0612,34,Female,25.2,Overweight,118,195,110,No,Heavy,High,No,No,No,None,No,30-44
+P0613,56,Female,28.2,Overweight,128,215,134,No,Heavy,Low,Yes,No,No,Diabetes,Yes,45-59
+P0614,57,Male,29.5,Overweight,136,193,126,No,None,High,No,No,No,Diabetes,Yes,45-59
+P0615,40,Female,30.7,Obese,127,189,97,No,None,Moderate,No,No,No,Diabetes,Yes,30-44
+P0616,82,Female,37.1,Obese,162,254,136,No,Heavy,High,Yes,No,Yes,Diabetes,Yes,60+
+P0617,54,Male,33.5,Obese,131,205,126,No,Heavy,Moderate,No,No,No,None,No,45-59
+P0618,71,Female,30.3,Obese,146,212,112,No,Moderate,High,Yes,No,No,Heart disease,Yes,60+
+P0619,27,Male,32.4,Obese,135,175,95,No,Moderate,Moderate,No,No,No,None,No,<30
+P0620,26,Male,26.1,Overweight,137,181,83,Yes,None,High,No,No,No,None,No,<30
+P0621,30,Female,27.2,Overweight,132,175,92,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0622,45,Female,32.8,Obese,127,211,122,No,Heavy,Moderate,Yes,No,No,Heart disease,Yes,45-59
+P0623,46,Male,31.9,Obese,135,181,109,Yes,None,Moderate,No,No,No,None,No,45-59
+P0624,39,Female,31.9,Obese,129,185,122,No,None,Low,No,No,No,Diabetes,Yes,30-44
+P0625,73,Male,27.5,Overweight,146,198,142,No,None,Low,No,Yes,No,Heart disease,Yes,60+
+P0626,76,Male,26.4,Overweight,143,199,117,Yes,None,High,No,No,No,Stroke,Yes,60+
+P0627,23,Female,24.2,Normal,122,177,92,No,None,High,No,No,No,None,No,<30
+P0628,62,Male,30.9,Obese,145,202,124,No,None,Low,No,No,No,None,Yes,60+
+P0629,19,Female,25.8,Overweight,115,178,82,No,Heavy,Moderate,No,No,Yes,None,No,<30
+P0630,81,Female,27.6,Overweight,138,215,129,No,None,Low,No,Yes,No,Heart disease,Yes,60+
+P0631,65,Female,27.9,Overweight,136,188,123,No,Moderate,High,Yes,No,No,Diabetes,Yes,60+
+P0632,51,Male,30.4,Obese,129,186,105,No,Moderate,Moderate,No,No,No,None,No,45-59
+P0633,26,Female,28.8,Overweight,120,175,103,No,None,Moderate,Yes,No,No,None,No,<30
+P0634,19,Male,21.4,Normal,115,164,89,Yes,Moderate,Moderate,No,No,No,None,No,<30
+P0635,23,Male,25.3,Overweight,125,180,100,No,Moderate,High,No,No,No,None,No,<30
+P0636,62,Male,25.9,Overweight,129,207,114,No,None,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0637,55,Male,26.3,Overweight,142,191,113,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0638,25,Male,33,Obese,127,192,94,Yes,Heavy,Moderate,No,No,No,None,No,<30
+P0639,51,Male,33.5,Obese,140,192,126,No,None,Low,No,Yes,No,Heart disease,Yes,45-59
+P0640,72,Female,26.2,Overweight,152,214,115,Yes,None,High,No,No,No,Stroke,Yes,60+
+P0641,54,Male,26,Overweight,133,194,99,No,None,High,No,No,Yes,Stroke,Yes,45-59
+P0642,81,Female,29,Overweight,154,223,144,No,None,Low,Yes,Yes,Yes,Heart disease,Yes,60+
+P0643,46,Female,29.6,Overweight,133,218,114,Yes,Heavy,High,Yes,No,No,None,No,45-59
+P0644,75,Male,32.1,Obese,155,204,117,No,Moderate,Moderate,No,No,Yes,Heart disease,Yes,60+
+P0645,53,Male,33.3,Obese,135,188,115,No,Moderate,High,Yes,Yes,No,Diabetes,Yes,45-59
+P0646,59,Male,26.5,Overweight,139,204,121,No,Moderate,Low,Yes,No,No,None,No,45-59
+P0647,73,Female,26.7,Overweight,140,215,128,No,None,Low,Yes,No,Yes,Stroke,Yes,60+
+P0648,30,Male,29.7,Overweight,128,175,111,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0649,41,Male,28.3,Overweight,139,172,95,Yes,Moderate,Moderate,No,No,No,Diabetes,Yes,30-44
+P0650,19,Male,28.4,Overweight,124,161,117,Yes,None,Low,Yes,No,No,Diabetes,Yes,<30
+P0651,64,Female,26.9,Overweight,139,197,129,No,None,Low,Yes,No,No,Diabetes,Yes,60+
+P0652,54,Female,28.2,Overweight,142,186,112,Yes,None,Moderate,No,No,No,Heart disease,Yes,45-59
+P0653,77,Female,31.1,Obese,138,217,137,No,Heavy,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0654,73,Female,36.6,Obese,154,210,145,No,None,Low,No,No,No,Heart disease,Yes,60+
+P0655,45,Female,26.8,Overweight,131,192,100,Yes,None,Moderate,No,No,No,Diabetes,Yes,45-59
+P0656,82,Female,26.6,Overweight,155,215,133,No,None,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0657,45,Male,28.2,Overweight,130,182,119,No,None,Moderate,No,No,No,None,No,45-59
+P0658,42,Male,25.8,Overweight,118,187,98,No,None,High,No,No,No,None,No,30-44
+P0659,39,Male,23.3,Normal,114,178,96,No,None,Low,Yes,No,No,None,No,30-44
+P0660,39,Male,26.1,Overweight,135,177,102,No,Moderate,Low,Yes,No,No,Diabetes,Yes,30-44
+P0661,34,Female,26,Overweight,130,175,104,Yes,Moderate,Low,Yes,No,No,None,No,30-44
+P0662,64,Male,28.7,Overweight,140,200,132,No,Moderate,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0663,77,Male,33.2,Obese,151,218,139,Yes,Moderate,Moderate,No,Yes,No,None,Yes,60+
+P0664,83,Male,31.4,Obese,152,223,144,No,None,Low,No,No,No,Heart disease,Yes,60+
+P0665,39,Male,28.1,Overweight,132,174,101,No,Moderate,High,No,No,No,None,No,30-44
+P0666,52,Female,31.8,Obese,132,187,115,No,Moderate,Low,No,No,Yes,Heart disease,Yes,45-59
+P0667,35,Male,32.9,Obese,126,185,107,No,Moderate,Moderate,Yes,No,No,None,No,30-44
+P0668,29,Female,26.7,Overweight,129,172,99,No,None,Moderate,No,No,No,None,No,<30
+P0669,72,Male,28.2,Overweight,149,214,126,No,Moderate,Moderate,No,No,No,None,Yes,60+
+P0670,26,Male,26.4,Overweight,130,174,83,Yes,Moderate,Moderate,No,No,No,Diabetes,Yes,<30
+P0671,38,Male,31,Obese,130,175,116,No,None,High,No,No,No,None,No,30-44
+P0672,58,Female,29.7,Overweight,137,194,127,No,None,Low,No,Yes,No,Heart disease,Yes,45-59
+P0673,42,Female,24.1,Normal,131,192,91,No,Moderate,Moderate,Yes,Yes,No,None,Yes,30-44
+P0674,42,Male,31.3,Obese,141,181,108,No,None,Low,Yes,No,No,Heart disease,Yes,30-44
+P0675,59,Female,31.7,Obese,134,228,121,No,Heavy,Moderate,No,Yes,No,Diabetes,Yes,45-59
+P0676,64,Female,34.1,Obese,142,217,132,No,None,Moderate,No,No,No,None,Yes,60+
+P0677,70,Female,29.9,Overweight,137,234,142,No,Heavy,Low,Yes,No,Yes,Stroke,Yes,60+
+P0678,38,Male,31.4,Obese,125,199,109,No,None,Moderate,No,No,No,None,No,30-44
+P0679,59,Female,35.5,Obese,142,220,136,No,None,High,Yes,No,Yes,Stroke,Yes,45-59
+P0680,81,Male,30.4,Obese,138,210,119,No,Moderate,Moderate,Yes,No,No,Stroke,Yes,60+
+P0681,79,Male,26.7,Overweight,150,201,131,No,Moderate,Low,No,Yes,No,Heart disease,Yes,60+
+P0682,34,Male,24.8,Normal,125,183,113,No,None,Low,No,No,Yes,None,No,30-44
+P0683,75,Male,31.4,Obese,154,209,117,No,Moderate,High,No,No,No,Diabetes,Yes,60+
+P0684,46,Female,26.6,Overweight,134,199,101,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0685,66,Female,25.2,Overweight,145,208,105,Yes,Moderate,Moderate,No,No,No,Heart disease,Yes,60+
+P0686,18,Female,24.9,Normal,127,153,99,Yes,None,Moderate,No,No,No,None,No,<30
+P0687,21,Female,23.4,Normal,120,178,81,No,None,Moderate,No,No,No,None,No,<30
+P0688,37,Female,24.7,Normal,124,172,96,No,None,Moderate,No,No,No,None,No,30-44
+P0689,66,Female,31.5,Obese,150,221,123,No,None,Moderate,No,No,No,Diabetes,Yes,60+
+P0690,36,Female,30.2,Obese,122,184,105,No,Moderate,Low,No,No,No,None,No,30-44
+P0691,75,Male,30.2,Obese,143,221,130,No,None,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0692,67,Female,36.7,Obese,149,216,127,No,Moderate,Moderate,No,No,No,Heart disease,Yes,60+
+P0693,56,Male,26.7,Overweight,128,186,117,No,Moderate,Moderate,No,No,Yes,Heart disease,Yes,45-59
+P0694,83,Female,36.9,Obese,153,218,144,No,Moderate,Low,No,Yes,No,Heart disease,Yes,60+
+P0695,37,Female,27.1,Overweight,116,182,91,No,Moderate,High,No,No,No,None,No,30-44
+P0696,64,Female,27.1,Overweight,145,221,119,No,Heavy,Moderate,No,No,No,Diabetes,Yes,60+
+P0697,38,Female,31.3,Obese,126,215,105,No,Heavy,Moderate,No,No,No,Diabetes,Yes,30-44
+P0698,71,Male,31.9,Obese,145,234,139,No,Heavy,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0699,22,Female,22.4,Normal,120,179,87,No,Moderate,Moderate,No,No,No,None,No,<30
+P0700,75,Male,25.9,Overweight,146,204,122,No,None,Moderate,Yes,No,No,Heart disease,Yes,60+
+P0701,42,Female,32.9,Obese,142,215,117,No,Heavy,Moderate,No,No,No,None,Yes,30-44
+P0702,24,Male,29.5,Overweight,114,171,98,No,None,High,No,No,No,None,No,<30
+P0703,60,Male,33.2,Obese,149,197,119,No,None,High,Yes,No,No,Diabetes,Yes,60+
+P0704,22,Male,30.6,Obese,132,178,104,Yes,Moderate,Low,No,Yes,No,Heart disease,Yes,<30
+P0705,40,Male,24.1,Normal,122,187,98,No,None,Low,Yes,No,No,None,No,30-44
+P0706,74,Male,28.3,Overweight,144,214,127,No,Heavy,Moderate,No,No,No,Diabetes,Yes,60+
+P0707,51,Male,31.5,Obese,128,196,129,No,None,Low,Yes,Yes,Yes,Heart disease,Yes,45-59
+P0708,84,Female,28.5,Overweight,157,211,124,No,None,High,No,No,Yes,None,Yes,60+
+P0709,27,Male,31.3,Obese,127,180,106,No,None,Moderate,Yes,No,No,None,No,<30
+P0710,85,Female,26.6,Overweight,151,229,137,Yes,None,Low,No,No,No,Heart disease,Yes,60+
+P0711,73,Female,33.3,Obese,161,220,148,Yes,Heavy,Low,No,Yes,Yes,Heart disease,Yes,60+
+P0712,57,Male,30.5,Obese,133,200,133,No,Moderate,Low,No,No,No,None,No,45-59
+P0713,32,Female,25,Overweight,130,174,101,No,Moderate,High,No,No,No,None,No,30-44
+P0714,68,Male,34.2,Obese,146,212,139,Yes,Moderate,Low,Yes,No,No,Diabetes,Yes,60+
+P0715,75,Female,29.8,Overweight,161,215,115,Yes,None,Moderate,No,No,No,Diabetes,Yes,60+
+P0716,75,Female,32.7,Obese,154,229,126,No,None,Moderate,No,No,Yes,Diabetes,Yes,60+
+P0717,83,Female,36.1,Obese,150,221,150,No,Moderate,High,Yes,No,No,Diabetes,Yes,60+
+P0718,50,Male,25.8,Overweight,136,181,106,No,None,High,No,No,Yes,Diabetes,Yes,45-59
+P0719,68,Female,29.7,Overweight,140,202,119,No,None,Moderate,No,No,No,None,Yes,60+
+P0720,27,Female,24.1,Normal,113,173,85,No,Moderate,Moderate,No,No,Yes,None,No,<30
+P0721,79,Male,36,Obese,142,228,125,No,None,High,No,No,No,None,Yes,60+
+P0722,48,Female,30.2,Obese,136,193,117,Yes,Moderate,Moderate,Yes,No,No,None,No,45-59
+P0723,42,Female,28.8,Overweight,134,175,112,No,None,Moderate,No,No,No,None,No,30-44
+P0724,74,Female,27,Overweight,147,202,120,Yes,None,Low,No,Yes,No,Heart disease,Yes,60+
+P0725,42,Male,29.2,Overweight,144,195,109,Yes,None,High,Yes,No,No,Stroke,Yes,30-44
+P0726,43,Male,26.4,Overweight,120,174,116,No,Moderate,Low,No,No,No,None,No,30-44
+P0727,73,Female,26,Overweight,139,216,112,No,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0728,65,Female,36.7,Obese,147,210,138,No,Moderate,High,Yes,No,No,Diabetes,Yes,60+
+P0729,79,Female,28.9,Overweight,148,209,148,No,Moderate,Low,No,No,No,Diabetes,Yes,60+
+P0730,66,Female,35.3,Obese,148,199,125,Yes,Moderate,Moderate,Yes,No,Yes,None,Yes,60+
+P0731,49,Female,27.3,Overweight,140,205,121,No,Moderate,Low,No,No,No,Diabetes,Yes,45-59
+P0732,45,Male,25.4,Overweight,137,187,105,No,Moderate,Low,No,No,No,None,No,45-59
+P0733,38,Female,26.7,Overweight,125,185,117,No,None,Low,Yes,No,No,None,No,30-44
+P0734,61,Female,27.1,Overweight,147,186,119,Yes,Moderate,Low,No,No,No,Diabetes,Yes,60+
+P0735,72,Female,31.5,Obese,140,223,132,No,Moderate,High,No,No,No,None,Yes,60+
+P0736,48,Female,34.6,Obese,141,212,133,No,None,Low,Yes,No,No,Diabetes,Yes,45-59
+P0737,33,Female,32.2,Obese,136,191,103,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,30-44
+P0738,33,Male,32,Obese,119,183,116,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0739,67,Male,29.6,Overweight,143,219,133,Yes,Moderate,Low,Yes,No,Yes,Heart disease,Yes,60+
+P0740,30,Female,29.8,Overweight,128,191,113,Yes,Heavy,High,No,No,No,None,No,30-44
+P0741,69,Female,28.1,Overweight,138,215,125,No,None,Moderate,No,No,No,None,No,60+
+P0742,79,Female,26.4,Overweight,137,213,119,No,Moderate,High,No,No,No,None,No,60+
+P0743,37,Female,30,Obese,125,212,114,No,Heavy,Low,No,No,No,Diabetes,Yes,30-44
+P0744,41,Female,25.2,Overweight,134,191,122,No,None,Low,No,No,No,None,No,30-44
+P0745,42,Male,27.6,Overweight,131,197,102,No,None,Moderate,No,No,Yes,None,No,30-44
+P0746,20,Male,25.3,Overweight,115,177,89,No,None,Moderate,No,No,No,None,No,<30
+P0747,46,Male,33.3,Obese,135,195,135,No,None,Low,No,No,No,Stroke,Yes,45-59
+P0748,30,Male,32.1,Obese,127,172,111,No,None,Low,No,No,No,None,No,30-44
+P0749,81,Male,33.8,Obese,149,233,133,No,Heavy,Low,Yes,No,No,Stroke,Yes,60+
+P0750,77,Female,32.5,Obese,155,206,122,Yes,None,High,No,No,No,None,Yes,60+
+P0751,43,Female,30.4,Obese,147,207,106,Yes,Heavy,Moderate,No,No,No,Stroke,Yes,30-44
+P0752,50,Male,30.8,Obese,150,207,105,Yes,Moderate,High,No,Yes,No,Heart disease,Yes,45-59
+P0753,56,Female,32.3,Obese,138,221,122,No,Heavy,Moderate,No,No,No,None,No,45-59
+P0754,60,Female,36.4,Obese,137,206,124,No,Moderate,Moderate,No,No,Yes,Stroke,Yes,60+
+P0755,28,Male,26.4,Overweight,130,161,115,No,None,Low,No,No,No,None,No,<30
+P0756,29,Male,23.5,Normal,113,184,85,No,Moderate,High,No,No,No,None,No,<30
+P0757,74,Male,30.8,Obese,156,226,136,Yes,None,Low,No,No,No,None,Yes,60+
+P0758,66,Male,35.1,Obese,153,200,140,No,None,Low,Yes,No,Yes,Stroke,Yes,60+
+P0759,66,Male,26.6,Overweight,140,188,109,No,Moderate,Moderate,No,No,No,None,Yes,60+
+P0760,67,Male,33.5,Obese,143,201,117,No,Moderate,High,Yes,Yes,No,Heart disease,Yes,60+
+P0761,69,Male,27.9,Overweight,143,196,127,No,None,Low,No,No,Yes,Stroke,Yes,60+
+P0762,70,Male,31.3,Obese,136,212,132,No,None,Low,No,No,Yes,None,No,60+
+P0763,43,Female,33.5,Obese,134,189,130,No,Moderate,Low,No,No,No,None,No,30-44
+P0764,45,Female,29.2,Overweight,123,193,99,No,None,High,No,No,No,None,No,45-59
+P0765,72,Female,36.5,Obese,146,225,141,No,Heavy,High,Yes,No,Yes,Diabetes,Yes,60+
+P0766,66,Female,33.2,Obese,152,204,134,Yes,None,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0767,49,Male,29.1,Overweight,141,195,115,No,Moderate,Low,Yes,Yes,No,Heart disease,Yes,45-59
+P0768,83,Male,31.9,Obese,149,212,135,No,Moderate,Low,No,Yes,No,Heart disease,Yes,60+
+P0769,82,Female,36.5,Obese,149,217,136,No,None,High,No,No,No,Diabetes,Yes,60+
+P0770,23,Male,26.8,Overweight,122,175,110,No,Heavy,Low,No,No,No,None,No,<30
+P0771,76,Male,30.8,Obese,140,228,121,No,Moderate,Moderate,No,No,No,None,Yes,60+
+P0772,54,Female,32.1,Obese,128,204,108,No,None,Moderate,No,No,No,Diabetes,Yes,45-59
+P0773,58,Female,29.8,Overweight,149,212,114,Yes,None,Low,No,No,No,Stroke,Yes,45-59
+P0774,30,Female,33.9,Obese,120,200,115,No,None,High,No,No,No,None,No,30-44
+P0775,26,Female,31.3,Obese,123,182,114,No,None,Moderate,No,No,No,None,No,<30
+P0776,63,Male,36.2,Obese,143,208,129,No,None,High,No,No,Yes,Stroke,Yes,60+
+P0777,19,Male,23.4,Normal,105,166,107,No,Moderate,Low,Yes,No,No,None,No,<30
+P0778,27,Male,23.2,Normal,131,174,80,Yes,Moderate,Moderate,Yes,No,No,None,No,<30
+P0779,54,Male,28.1,Overweight,133,201,125,No,Moderate,Low,No,No,No,None,No,45-59
+P0780,48,Female,35.2,Obese,132,213,125,No,None,High,Yes,No,Yes,Stroke,Yes,45-59
+P0781,27,Male,31.2,Obese,127,187,113,No,None,Low,Yes,No,No,None,No,<30
+P0782,80,Male,35.5,Obese,143,241,125,No,Heavy,Moderate,No,No,Yes,Stroke,Yes,60+
+P0783,28,Male,23.5,Normal,114,173,90,No,None,Low,No,No,No,None,No,<30
+P0784,35,Male,25.1,Overweight,122,177,109,No,Moderate,High,No,No,No,None,No,30-44
+P0785,56,Female,29.5,Overweight,147,199,112,Yes,Heavy,Low,No,No,Yes,Stroke,Yes,45-59
+P0786,24,Female,24.2,Normal,123,165,90,No,None,High,No,No,No,None,No,<30
+P0787,73,Male,34.3,Obese,156,208,131,Yes,Moderate,High,Yes,No,No,None,Yes,60+
+P0788,70,Female,31.5,Obese,139,230,130,No,Heavy,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0789,38,Female,28.1,Overweight,144,171,109,Yes,Moderate,Low,No,No,No,None,Yes,30-44
+P0790,59,Female,35.2,Obese,151,196,125,No,None,Low,No,Yes,No,Stroke,Yes,45-59
+P0791,69,Male,27.2,Overweight,140,194,122,Yes,None,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0792,19,Male,31,Obese,119,181,97,No,None,Low,No,Yes,No,Heart disease,Yes,<30
+P0793,24,Female,24.8,Normal,134,156,87,Yes,Moderate,Moderate,No,No,No,None,No,<30
+P0794,70,Male,36.8,Obese,142,227,133,No,None,Low,No,No,No,None,Yes,60+
+P0795,57,Male,35.6,Obese,151,197,122,No,Moderate,Moderate,No,No,No,None,Yes,45-59
+P0796,28,Male,24.7,Normal,114,202,93,No,Heavy,High,No,No,No,None,No,<30
+P0797,61,Male,29.5,Overweight,139,197,106,No,None,High,Yes,No,No,Heart disease,Yes,60+
+P0798,51,Female,24.8,Normal,129,198,127,No,Moderate,Low,No,No,Yes,Stroke,Yes,45-59
+P0799,43,Female,28.3,Overweight,140,200,124,Yes,None,Low,No,Yes,No,Heart disease,Yes,30-44
+P0800,78,Male,37.4,Obese,153,228,146,Yes,None,Low,No,Yes,No,None,Yes,60+
+P0801,63,Male,26,Overweight,139,186,116,No,None,High,No,No,Yes,Heart disease,Yes,60+
+P0802,77,Male,29.6,Overweight,155,225,128,No,None,Low,No,No,No,Diabetes,Yes,60+
+P0803,47,Female,28.4,Overweight,121,178,109,No,None,Moderate,No,No,No,Diabetes,Yes,45-59
+P0804,84,Male,35.1,Obese,147,237,142,No,Heavy,Low,Yes,No,No,Heart disease,Yes,60+
+P0805,56,Female,25,Overweight,139,207,115,No,None,Low,No,No,No,Diabetes,Yes,45-59
+P0806,40,Male,33.8,Obese,134,202,109,No,Heavy,Moderate,Yes,No,No,Diabetes,Yes,30-44
+P0807,70,Male,35.5,Obese,150,218,153,Yes,None,Low,Yes,No,No,None,Yes,60+
+P0808,53,Female,34.2,Obese,141,194,136,No,None,Low,No,No,No,Heart disease,Yes,45-59
+P0809,72,Female,31.7,Obese,145,213,126,No,None,High,Yes,Yes,No,Heart disease,Yes,60+
+P0810,56,Female,24.5,Normal,128,180,95,No,None,High,Yes,No,No,Stroke,Yes,45-59
+P0811,24,Female,25.9,Overweight,121,183,88,Yes,None,Moderate,Yes,No,No,None,No,<30
+P0812,25,Male,25.4,Overweight,125,165,93,Yes,None,High,No,No,No,None,No,<30
+P0813,56,Male,25.9,Overweight,134,190,127,No,Moderate,Low,Yes,Yes,No,Heart disease,Yes,45-59
+P0814,66,Female,29,Overweight,142,197,127,No,None,High,No,No,Yes,Stroke,Yes,60+
+P0815,64,Female,29,Overweight,142,193,136,No,None,Low,No,No,No,Diabetes,Yes,60+
+P0816,84,Female,31.7,Obese,151,214,131,No,None,Low,No,No,No,Diabetes,Yes,60+
+P0817,33,Male,33.9,Obese,135,204,107,No,Heavy,Moderate,Yes,Yes,No,Heart disease,Yes,30-44
+P0818,18,Male,28.5,Overweight,124,156,107,No,None,Moderate,No,No,No,None,No,<30
+P0819,59,Female,35.7,Obese,140,215,136,No,Heavy,Moderate,No,Yes,No,None,Yes,45-59
+P0820,40,Male,31.6,Obese,123,183,101,No,None,Moderate,No,No,No,None,No,30-44
+P0821,39,Female,32.8,Obese,127,193,128,No,None,Low,No,No,No,Diabetes,Yes,30-44
+P0822,58,Male,34.4,Obese,156,215,118,Yes,None,Moderate,Yes,Yes,No,Heart disease,Yes,45-59
+P0823,42,Female,23.7,Normal,125,168,99,No,Moderate,Low,No,No,No,None,No,30-44
+P0824,18,Male,21.6,Normal,119,170,102,No,None,Low,No,No,No,None,No,<30
+P0825,33,Female,23.2,Normal,135,163,102,Yes,None,Moderate,No,No,No,None,No,30-44
+P0826,39,Female,25.2,Overweight,123,203,98,No,Heavy,Moderate,No,No,No,None,No,30-44
+P0827,29,Male,28.7,Overweight,121,170,89,No,None,Moderate,No,No,No,None,No,<30
+P0828,75,Male,28.3,Overweight,146,235,130,Yes,Heavy,Moderate,No,No,No,Diabetes,Yes,60+
+P0829,85,Male,36.7,Obese,150,234,147,No,None,Low,No,Yes,No,Heart disease,Yes,60+
+P0830,78,Male,29.5,Overweight,144,214,139,No,None,Low,No,No,No,Diabetes,Yes,60+
+P0831,34,Male,32.6,Obese,123,198,122,No,None,Low,No,No,Yes,None,No,30-44
+P0832,62,Male,33.5,Obese,149,198,127,No,Moderate,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0833,38,Male,31.8,Obese,131,203,98,No,None,Moderate,No,Yes,No,None,Yes,30-44
+P0834,54,Female,33.6,Obese,129,216,123,No,None,High,No,No,No,Diabetes,Yes,45-59
+P0835,74,Female,37.2,Obese,157,220,151,No,None,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0836,18,Male,21.7,Normal,111,160,75,No,None,High,No,No,Yes,None,No,<30
+P0837,57,Male,31.1,Obese,132,196,128,No,None,Low,Yes,Yes,No,Heart disease,Yes,45-59
+P0838,53,Female,32.4,Obese,147,221,129,No,Heavy,Moderate,No,Yes,No,Heart disease,Yes,45-59
+P0839,76,Male,30.7,Obese,141,204,133,No,Moderate,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0840,25,Female,23.7,Normal,110,171,97,No,Moderate,Low,No,No,No,None,No,<30
+P0841,65,Female,28.8,Overweight,143,214,109,No,None,Moderate,No,No,No,Diabetes,Yes,60+
+P0842,47,Female,27.5,Overweight,137,218,109,No,Heavy,High,No,No,No,None,No,45-59
+P0843,77,Male,37.3,Obese,149,232,147,No,Moderate,Moderate,No,No,Yes,None,Yes,60+
+P0844,33,Female,23.2,Normal,123,164,106,No,Moderate,Low,Yes,No,No,None,No,30-44
+P0845,79,Male,36.7,Obese,154,225,144,Yes,None,High,No,No,No,Stroke,Yes,60+
+P0846,31,Female,29.3,Overweight,128,194,104,No,None,Moderate,No,No,No,None,No,30-44
+P0847,36,Male,28.9,Overweight,135,193,111,No,Heavy,High,No,No,No,None,No,30-44
+P0848,21,Male,26.5,Overweight,115,175,92,No,Moderate,Low,No,No,No,None,No,<30
+P0849,64,Male,27.9,Overweight,139,188,127,No,None,Low,Yes,Yes,No,Heart disease,Yes,60+
+P0850,25,Male,28.5,Overweight,127,189,97,No,Moderate,Moderate,No,No,No,None,No,<30
+P0851,62,Female,33,Obese,144,206,112,Yes,Moderate,High,Yes,No,No,None,Yes,60+
+P0852,79,Female,30.4,Obese,155,224,118,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0853,76,Female,32.4,Obese,149,205,126,Yes,None,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0854,20,Female,24.8,Normal,133,178,96,Yes,Moderate,Moderate,No,No,Yes,None,No,<30
+P0855,26,Female,23.1,Normal,118,160,81,No,Moderate,Moderate,No,No,No,None,No,<30
+P0856,39,Female,30.5,Obese,124,188,114,No,Heavy,Low,No,No,No,None,No,30-44
+P0857,57,Male,32.1,Obese,142,194,122,Yes,Moderate,High,Yes,No,No,None,Yes,45-59
+P0858,67,Male,30.2,Obese,136,196,113,No,None,Moderate,Yes,No,No,Stroke,Yes,60+
+P0859,54,Male,24,Normal,131,203,94,No,Moderate,Moderate,No,Yes,No,None,Yes,45-59
+P0860,80,Male,30.9,Obese,153,216,124,No,None,Moderate,No,No,Yes,Diabetes,Yes,60+
+P0861,24,Male,28.9,Overweight,129,165,97,No,None,Moderate,No,No,No,None,No,<30
+P0862,44,Female,30.2,Obese,139,196,109,No,Heavy,High,No,No,Yes,Stroke,Yes,30-44
+P0863,56,Male,25.1,Overweight,128,191,109,No,None,Moderate,No,No,No,None,No,45-59
+P0864,20,Female,21.6,Normal,120,152,88,No,None,Low,No,No,No,None,No,<30
+P0865,62,Male,24.9,Normal,143,208,121,No,None,High,Yes,No,No,Diabetes,Yes,60+
+P0866,72,Male,35.2,Obese,139,211,151,No,Moderate,Low,Yes,No,No,Stroke,Yes,60+
+P0867,55,Male,25.5,Overweight,135,202,125,No,None,Low,Yes,No,Yes,Stroke,Yes,45-59
+P0868,47,Male,32.7,Obese,138,203,112,Yes,Moderate,High,Yes,Yes,No,Heart disease,Yes,45-59
+P0869,58,Male,25.9,Overweight,137,213,106,No,Heavy,High,No,No,No,Heart disease,Yes,45-59
+P0870,76,Male,31,Obese,163,222,135,Yes,Heavy,Moderate,No,No,No,Diabetes,Yes,60+
+P0871,31,Male,32.6,Obese,144,180,110,Yes,None,High,No,No,No,Heart disease,Yes,30-44
+P0872,53,Female,33.7,Obese,148,202,119,Yes,None,Low,Yes,No,Yes,Stroke,Yes,45-59
+P0873,77,Female,31.5,Obese,138,201,133,No,None,Moderate,No,No,No,None,No,60+
+P0874,80,Male,37.1,Obese,144,213,148,No,Moderate,High,Yes,No,No,Stroke,Yes,60+
+P0875,51,Female,27.8,Overweight,148,181,121,Yes,None,Moderate,No,No,No,Diabetes,Yes,45-59
+P0876,22,Male,30.4,Obese,131,181,99,No,None,Low,No,No,No,None,No,<30
+P0877,54,Female,26.3,Overweight,124,189,109,No,Moderate,Low,No,No,No,None,No,45-59
+P0878,26,Female,30,Obese,121,183,116,No,None,Low,No,Yes,No,None,Yes,<30
+P0879,40,Male,24.9,Normal,120,195,89,No,None,Moderate,No,No,No,None,No,30-44
+P0880,73,Male,31.3,Obese,140,213,148,No,None,Low,No,No,No,Stroke,Yes,60+
+P0881,54,Female,29.2,Overweight,144,196,119,No,None,High,Yes,No,No,Heart disease,Yes,45-59
+P0882,82,Female,36.6,Obese,171,223,132,Yes,Moderate,High,Yes,No,Yes,Diabetes,Yes,60+
+P0883,37,Male,32,Obese,124,183,111,No,None,Low,No,No,No,None,No,30-44
+P0884,23,Female,23.8,Normal,119,165,91,Yes,Moderate,Low,No,No,No,None,No,<30
+P0885,31,Female,27.2,Overweight,115,182,110,No,Heavy,Low,No,No,No,None,No,30-44
+P0886,85,Male,30.3,Obese,157,213,136,No,Moderate,Moderate,No,Yes,Yes,None,Yes,60+
+P0887,77,Male,33.3,Obese,155,221,153,Yes,Heavy,Low,No,No,No,Heart disease,Yes,60+
+P0888,35,Female,25.7,Overweight,128,190,94,No,Heavy,Moderate,Yes,No,No,None,No,30-44
+P0889,37,Female,30.8,Obese,121,198,114,No,None,Low,No,No,No,None,No,30-44
+P0890,56,Male,24.8,Normal,147,198,98,Yes,None,Moderate,Yes,No,Yes,Stroke,Yes,45-59
+P0891,66,Female,32.6,Obese,148,211,133,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0892,66,Male,36.8,Obese,139,219,142,No,Moderate,High,Yes,No,Yes,Stroke,Yes,60+
+P0893,62,Male,32.7,Obese,146,195,122,Yes,None,Moderate,Yes,No,No,Stroke,Yes,60+
+P0894,81,Male,33.8,Obese,151,224,139,No,Moderate,Moderate,No,Yes,Yes,Heart disease,Yes,60+
+P0895,33,Female,27.4,Overweight,119,181,110,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0896,68,Female,33.9,Obese,144,224,136,Yes,None,High,Yes,No,No,Diabetes,Yes,60+
+P0897,62,Male,32.7,Obese,151,202,131,No,Moderate,Low,No,No,No,Heart disease,Yes,60+
+P0898,78,Male,27.7,Overweight,144,218,133,Yes,None,High,No,No,No,Diabetes,Yes,60+
+P0899,80,Female,27.7,Overweight,147,218,129,No,Moderate,Moderate,No,No,No,Diabetes,Yes,60+
+P0900,78,Male,32.7,Obese,149,227,150,No,Heavy,Low,No,No,Yes,Diabetes,Yes,60+
+P0901,35,Female,26.9,Overweight,124,185,90,No,None,High,No,No,No,None,No,30-44
+P0902,35,Female,24.6,Normal,122,186,116,Yes,None,Low,Yes,No,Yes,Stroke,Yes,30-44
+P0903,70,Male,31.7,Obese,153,212,117,Yes,Moderate,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0904,20,Male,21.3,Normal,108,169,92,No,Heavy,Moderate,No,No,No,None,No,<30
+P0905,50,Male,26.6,Overweight,125,176,106,No,Moderate,Low,Yes,Yes,No,None,Yes,45-59
+P0906,73,Male,27.4,Overweight,146,197,114,Yes,Moderate,High,No,No,No,Diabetes,Yes,60+
+P0907,69,Female,28.3,Overweight,139,200,130,No,Moderate,Moderate,Yes,No,No,Stroke,Yes,60+
+P0908,20,Male,32.7,Obese,128,185,103,No,None,High,Yes,No,No,None,No,<30
+P0909,33,Female,24.9,Normal,118,171,96,No,None,Moderate,No,No,No,None,No,30-44
+P0910,65,Male,34.4,Obese,140,201,135,No,Moderate,High,Yes,No,No,Diabetes,Yes,60+
+P0911,77,Female,34,Obese,152,205,135,Yes,Moderate,Low,Yes,No,No,None,Yes,60+
+P0912,73,Female,28.6,Overweight,151,214,124,No,Heavy,Low,No,No,No,Heart disease,Yes,60+
+P0913,27,Female,26.6,Overweight,130,195,109,No,Heavy,Low,No,No,No,None,No,<30
+P0914,51,Male,33.4,Obese,131,190,107,No,Moderate,Moderate,No,No,No,None,No,45-59
+P0915,83,Female,30.5,Obese,150,225,120,No,None,Moderate,No,No,Yes,None,Yes,60+
+P0916,20,Male,31.3,Obese,125,186,105,Yes,None,Moderate,Yes,No,No,Heart disease,Yes,<30
+P0917,35,Female,31.4,Obese,128,181,97,Yes,Moderate,Moderate,No,No,No,None,No,30-44
+P0918,80,Male,30.4,Obese,151,219,143,No,None,Low,Yes,No,No,Diabetes,Yes,60+
+P0919,37,Female,30.7,Obese,138,195,106,No,None,High,No,Yes,No,Diabetes,Yes,30-44
+P0920,27,Male,30.4,Obese,119,185,107,No,None,Moderate,No,No,Yes,None,No,<30
+P0921,30,Female,31.6,Obese,121,189,98,No,Heavy,Moderate,No,No,No,Diabetes,Yes,30-44
+P0922,41,Male,34.5,Obese,130,202,103,No,Moderate,Moderate,No,No,No,None,No,30-44
+P0923,75,Male,33.5,Obese,155,209,148,No,None,Low,Yes,No,Yes,None,Yes,60+
+P0924,57,Male,24.7,Normal,124,202,110,No,Moderate,Low,No,No,No,Stroke,Yes,45-59
+P0925,24,Female,24.6,Normal,132,171,93,Yes,None,High,No,No,No,None,No,<30
+P0926,50,Female,24.2,Normal,131,184,111,No,None,High,No,No,No,None,No,45-59
+P0927,75,Male,33,Obese,144,216,119,No,None,High,Yes,No,No,None,Yes,60+
+P0928,24,Female,29.5,Overweight,125,166,101,Yes,None,Moderate,No,No,No,Heart disease,Yes,<30
+P0929,69,Male,32.2,Obese,134,225,114,No,None,Moderate,No,No,No,Heart disease,Yes,60+
+P0930,59,Female,24.8,Normal,141,187,129,No,None,Low,No,No,No,Diabetes,Yes,45-59
+P0931,33,Male,34,Obese,120,173,102,No,Moderate,High,No,No,No,None,No,30-44
+P0932,49,Male,33.3,Obese,137,223,127,Yes,Heavy,High,No,No,No,None,No,45-59
+P0933,64,Male,25.1,Overweight,137,188,108,No,None,High,No,No,No,Heart disease,Yes,60+
+P0934,19,Male,25.1,Overweight,117,176,102,No,Moderate,Low,No,No,No,None,No,<30
+P0935,83,Male,32.4,Obese,142,242,125,No,Heavy,High,No,Yes,No,Heart disease,Yes,60+
+P0936,21,Female,23.8,Normal,118,166,95,Yes,Moderate,High,No,No,No,None,No,<30
+P0937,19,Male,22.5,Normal,112,170,96,Yes,Moderate,Moderate,No,No,No,None,No,<30
+P0938,27,Male,31.2,Obese,117,171,92,No,Moderate,Moderate,No,No,No,None,No,<30
+P0939,58,Male,24.7,Normal,148,195,127,Yes,None,Low,No,No,No,Diabetes,Yes,45-59
+P0940,43,Female,32.1,Obese,134,184,117,Yes,None,Moderate,No,No,No,Diabetes,Yes,30-44
+P0941,27,Female,23.3,Normal,122,183,79,No,None,Moderate,No,No,No,None,No,<30
+P0942,59,Female,33.1,Obese,145,217,144,No,None,Low,No,No,No,None,Yes,45-59
+P0943,85,Female,32,Obese,147,224,142,No,None,Moderate,Yes,No,No,Diabetes,Yes,60+
+P0944,22,Female,30.5,Obese,120,202,121,No,Heavy,Low,No,No,No,Diabetes,Yes,<30
+P0945,51,Female,33.6,Obese,135,199,119,Yes,Moderate,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0946,38,Female,34.1,Obese,131,183,113,No,Moderate,Low,Yes,No,No,Heart disease,Yes,30-44
+P0947,40,Male,34.6,Obese,142,206,123,Yes,None,High,No,No,No,Heart disease,Yes,30-44
+P0948,66,Male,31.9,Obese,138,213,141,No,None,Low,No,Yes,No,Heart disease,Yes,60+
+P0949,29,Male,33.6,Obese,128,205,104,No,Heavy,Moderate,No,No,No,None,No,<30
+P0950,48,Male,27.1,Overweight,121,197,120,No,None,Low,No,No,No,None,No,45-59
+P0951,73,Female,27.8,Overweight,148,220,139,No,None,Low,No,No,Yes,Stroke,Yes,60+
+P0952,22,Female,24,Normal,126,180,109,No,None,Low,No,No,No,None,No,<30
+P0953,66,Female,32.5,Obese,148,215,144,No,None,Low,No,No,Yes,Heart disease,Yes,60+
+P0954,47,Male,26.2,Overweight,138,194,106,No,Heavy,Low,No,No,No,None,No,45-59
+P0955,56,Male,28,Overweight,128,205,109,No,Moderate,High,Yes,No,No,Diabetes,Yes,45-59
+P0956,60,Male,29.7,Overweight,147,212,120,Yes,Heavy,Moderate,No,Yes,No,Heart disease,Yes,60+
+P0957,20,Female,27.3,Overweight,115,157,110,No,None,Low,No,No,No,None,No,<30
+P0958,62,Male,27,Overweight,142,200,119,Yes,None,High,No,No,No,Heart disease,Yes,60+
+P0959,70,Male,35.7,Obese,151,221,139,No,None,Moderate,Yes,No,Yes,Stroke,Yes,60+
+P0960,26,Male,25.1,Overweight,114,165,93,No,Moderate,Low,Yes,No,Yes,None,No,<30
+P0961,63,Male,28.7,Overweight,142,201,114,No,None,High,Yes,No,No,Stroke,Yes,60+
+P0962,65,Female,36.3,Obese,142,214,139,No,Heavy,High,Yes,No,No,Diabetes,Yes,60+
+P0963,63,Male,32.4,Obese,139,218,135,No,Heavy,Moderate,Yes,No,No,Stroke,Yes,60+
+P0964,52,Female,32.5,Obese,147,209,124,No,None,Low,Yes,Yes,No,Heart disease,Yes,45-59
+P0965,33,Female,33.7,Obese,129,190,110,No,None,Low,No,No,No,None,No,30-44
+P0966,49,Female,27.8,Overweight,129,188,106,No,None,Moderate,Yes,Yes,No,Heart disease,Yes,45-59
+P0967,26,Male,31.1,Obese,123,192,112,No,Moderate,Low,No,No,No,None,No,<30
+P0968,34,Female,33.6,Obese,121,190,114,No,None,High,No,No,No,None,No,30-44
+P0969,65,Male,31.4,Obese,146,203,134,No,None,Moderate,No,No,Yes,Stroke,Yes,60+
+P0970,49,Female,33.5,Obese,137,188,114,No,None,High,Yes,Yes,Yes,Diabetes,Yes,45-59
+P0971,44,Female,29.4,Overweight,133,178,122,No,None,Low,Yes,No,No,Diabetes,Yes,30-44
+P0972,71,Female,36.5,Obese,150,227,142,No,None,Low,No,No,No,None,Yes,60+
+P0973,55,Female,28.3,Overweight,141,182,116,No,Moderate,Low,No,No,Yes,Stroke,Yes,45-59
+P0974,52,Female,26,Overweight,128,184,98,No,Moderate,Moderate,Yes,No,No,Diabetes,Yes,45-59
+P0975,38,Female,25,Overweight,131,169,105,No,None,High,No,No,No,None,No,30-44
+P0976,35,Male,23.2,Normal,127,164,108,No,Moderate,Low,No,No,No,None,No,30-44
+P0977,35,Female,33.8,Obese,125,190,128,No,None,Low,No,No,No,Diabetes,Yes,30-44
+P0978,21,Male,23.1,Normal,116,167,81,No,Moderate,Moderate,No,No,No,None,No,<30
+P0979,26,Female,32,Obese,120,192,104,No,None,Moderate,No,No,No,None,No,<30
+P0980,60,Female,31,Obese,133,196,118,No,None,Low,No,No,No,Heart disease,Yes,60+
+P0981,32,Female,30.7,Obese,141,209,92,Yes,Heavy,High,No,No,No,None,Yes,30-44
+P0982,35,Female,30.2,Obese,126,181,113,No,None,High,No,No,Yes,None,No,30-44
+P0983,81,Female,37.8,Obese,168,223,136,Yes,None,High,Yes,Yes,No,Heart disease,Yes,60+
+P0984,46,Male,29.1,Overweight,128,178,122,No,None,High,No,Yes,No,Heart disease,Yes,45-59
+P0985,84,Female,29,Overweight,144,230,137,No,Moderate,Moderate,No,No,No,Diabetes,Yes,60+
+P0986,68,Female,36.2,Obese,138,237,132,No,Heavy,Moderate,No,No,No,None,No,60+
+P0987,24,Female,32.4,Obese,125,177,114,No,None,Moderate,No,No,No,None,No,<30
+P0988,48,Female,30.4,Obese,137,193,103,No,None,Moderate,No,No,No,None,No,45-59
+P0989,26,Male,22.4,Normal,111,161,102,No,Moderate,Low,Yes,No,No,None,No,<30
+P0990,53,Female,26.8,Overweight,142,187,98,No,None,Moderate,No,No,No,None,Yes,45-59
+P0991,39,Male,33.4,Obese,138,177,106,No,Moderate,High,Yes,No,No,Diabetes,Yes,30-44
+P0992,77,Male,29.8,Overweight,149,228,115,No,None,Moderate,Yes,Yes,No,Heart disease,Yes,60+
+P0993,46,Female,34.5,Obese,142,205,130,Yes,Moderate,High,Yes,No,Yes,Stroke,Yes,45-59
+P0994,35,Female,23.2,Normal,118,169,104,No,None,High,No,No,No,None,No,30-44
+P0995,58,Female,34,Obese,143,208,118,No,None,Moderate,Yes,No,Yes,Stroke,Yes,45-59
+P0996,49,Female,23.7,Normal,121,174,98,No,None,High,No,No,No,None,No,45-59
+P0997,40,Female,30.4,Obese,137,196,103,No,Heavy,High,No,No,No,Diabetes,Yes,30-44
+P0998,63,Female,33.2,Obese,134,196,122,No,None,High,Yes,No,No,Heart disease,Yes,60+
+P0999,84,Female,30.2,Obese,148,218,126,No,Moderate,High,No,No,No,Stroke,Yes,60+
+P1000,26,Female,22.1,Normal,117,188,94,Yes,Heavy,Low,No,No,No,None,No,<30
