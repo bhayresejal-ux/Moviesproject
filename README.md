@@ -1,5 +1,7 @@
 # Chronic Disease Risk Dashboard Project
 
+> 🌐 **Live Interactive Demo:** [https://bhayresejal-ux.github.io/Moviesproject/](https://bhayresejal-ux.github.io/Moviesproject/)
+
 An end-to-end Healthcare Analytics and Tableau Business Intelligence project designed to detect high-risk patients early (Heart Disease, Diabetes, Stroke), uncover clinical risk-factor correlations, and support preventive care, clinical decision-making, and resource allocation.
 
 ---
